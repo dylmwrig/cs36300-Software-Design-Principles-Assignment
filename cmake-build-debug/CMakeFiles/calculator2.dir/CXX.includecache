@@ -1,0 +1,210 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Command.cpp
+Add_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Command.h
+Binary_Op_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Op_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.cpp
+stdexcept
+-
+Array.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
+cstddef
+-
+iostream
+-
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array_Iterator.cpp
+Array_Iterator.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array_Iterator.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array_Iterator.h
+Array.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Op_Command.cpp
+Binary_Op_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Op_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Op_Command.h
+Expr_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Command.h
+Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Command.cpp
+Div_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Command.h
+Binary_Op_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Op_Command.h
+Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Command.cpp
+Expr_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Command.h
+stack
+-
+Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Command_Factory.cpp
+Expr_Command_Factory.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Command_Factory.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Command_Factory.h
+Add_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Command.h
+Sub_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Command.h
+Num_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Command.h
+Div_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Command.h
+Mult_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Command.h
+Paren_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Command.h
+Modulus_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Command.cpp
+Modulus_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Command.h
+Binary_Op_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Op_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Command.cpp
+Mult_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Command.h
+Binary_Op_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Op_Command.h
+Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Command.cpp
+Num_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Command.h
+Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
+Expr_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Command.h
+string
+-
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Command.cpp
+Paren_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Command.h
+Binary_Op_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Op_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.cpp
+Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
+exception
+-
+Array.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
+Stack.inl
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.inl
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.inl
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack_Expr_Command_Factory.cpp
+Stack_Expr_Command_Factory.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack_Expr_Command_Factory.h
+Add_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Command.h
+Sub_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Command.h
+Num_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Command.h
+Div_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Command.h
+Paren_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack_Expr_Command_Factory.h
+Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
+Expr_Command_Factory.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Command_Factory.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Command.cpp
+Sub_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Command.h
+Binary_Op_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Op_Command.h
+Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Variable_Command.cpp
+Variable_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Variable_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Variable_Command.h
+Num_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Command.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/driver.cpp
+iostream
+-
+vector
+-
+ctype.h
+-
+cstdlib
+-
+map
+-
+Array.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
+Array_Iterator.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array_Iterator.h
+Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
+Expr_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Command.h
+Expr_Command_Factory.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Command_Factory.h
+Stack_Expr_Command_Factory.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack_Expr_Command_Factory.h
+Add_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Command.h
+Sub_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Command.h
+Mult_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Command.h
+Num_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Command.h
+Div_Command.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Command.h
+
