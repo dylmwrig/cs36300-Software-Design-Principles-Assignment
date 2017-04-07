@@ -10,6 +10,7 @@ public:
     ~Add_Node(void);
 
     int evaluate (int n1, int n2) const;
+    virtual void accept (Expr_Node_Visitor & v);
 }; //end Add_Node
 
 #endif //CALCULATOR_ADD_COMMAND_H

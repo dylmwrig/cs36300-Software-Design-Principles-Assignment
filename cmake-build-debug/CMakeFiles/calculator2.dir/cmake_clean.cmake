@@ -17,6 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/calculator2.dir/Variable_Command.cpp.obj"
   "CMakeFiles/calculator2.dir/Unary_Expr_Node.cpp.obj"
   "CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.obj"
+  "CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj"
   "calculator2.pdb"
   "calculator2.exe"
   "calculator2.exe.manifest"

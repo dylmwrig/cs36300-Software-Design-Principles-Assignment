@@ -130,6 +130,12 @@
 		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h">
 			<Option target="calculator2"/>
 		</Unit>
+		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.cpp">
+			<Option target="calculator2"/>
+		</Unit>
+		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h">
+			<Option target="calculator2"/>
+		</Unit>
 		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Node.cpp">
 			<Option target="calculator2"/>
 		</Unit>

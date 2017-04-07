@@ -11,6 +11,7 @@ public:
     ~Div_Node();
 
     int evaluate (int n1, int n2) const;
+    virtual void accept (Expr_Node_Visitor & v);
 }; //end Div_Node
 
 #endif //CALCULATOR_DIV_COMMAND_H

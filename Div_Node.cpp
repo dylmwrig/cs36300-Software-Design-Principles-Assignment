@@ -19,3 +19,8 @@ int Div_Node :: evaluate (int n1, int n2) const
         return (n1 / n2);
     } //end else
 } //end evaluate
+
+virtual void Div_Node :: accept (Expr_Node_Visitor & v)
+{
+    v.Visit_Div_Node(*this);
+} //end accept

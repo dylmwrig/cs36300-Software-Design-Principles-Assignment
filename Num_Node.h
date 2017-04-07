@@ -9,7 +9,8 @@ class Num_Node : public Expr_Node
 {
 public:
     Num_Node (int n);
-    bool execute (void);
+    int evaluate (void);
+    virtual void accept(Expr_Node_Visitor & v);
 protected:
     int n_;
 }; //end Num_Node

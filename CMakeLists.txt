@@ -3,5 +3,5 @@ project(calculator2)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES Add_Node.cpp Array.cpp Array_Iterator.cpp Binary_Expr_Node.cpp Div_Node.cpp driver.cpp Expr_Node.cpp Expr_Command_Factory.cpp Modulus_Node.cpp Mult_Node.cpp Num_Node.cpp Paren_Command.cpp Stack.cpp Stack_Expr_Command_Factory.cpp Sub_Node.cpp Variable_Command.cpp Unary_Expr_Node.cpp Unary_Expr_Node.h Eval_Expr_Tree.cpp Eval_Expr_Tree.h)
+set(SOURCE_FILES Add_Node.cpp Array.cpp Array_Iterator.cpp Binary_Expr_Node.cpp Div_Node.cpp driver.cpp Expr_Node.cpp Expr_Command_Factory.cpp Modulus_Node.cpp Mult_Node.cpp Num_Node.cpp Paren_Command.cpp Stack.cpp Stack_Expr_Command_Factory.cpp Sub_Node.cpp Variable_Command.cpp Unary_Expr_Node.cpp Unary_Expr_Node.h Eval_Expr_Tree.cpp Eval_Expr_Tree.h Expr_Node_Visitor.cpp Expr_Node_Visitor.h)
 add_executable(calculator2 ${SOURCE_FILES})

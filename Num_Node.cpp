@@ -3,15 +3,12 @@
 Num_Node :: Num_Node (int n)
         :n_ (n){ }
 
-
-int Num_Node :: getPrecedence()
+int Num_Node :: evaluate (void)
 {
-    return precedence_;
-} //end getPrecedence
-
-bool Num_Node :: execute (void)
-{
-    s_.push (this->n_);
-    //std::cout<<"new top of stack and size: " << s_.top() << " " << s_.size()<<std::endl;
-    return true;
+    return n_;
 } //end execute
+
+virtual void Num_Node :: accept (Expr_Node_Visitor & v)
+{
+    v.Visit_Num_Node(*this);
+} //end accept

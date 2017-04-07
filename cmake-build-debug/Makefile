@@ -338,6 +338,33 @@ Expr_Node.cpp.s:
 	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Node.cpp.s
 .PHONY : Expr_Node.cpp.s
 
+Expr_Node_Visitor.obj: Expr_Node_Visitor.cpp.obj
+
+.PHONY : Expr_Node_Visitor.obj
+
+# target to build an object file
+Expr_Node_Visitor.cpp.obj:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj
+.PHONY : Expr_Node_Visitor.cpp.obj
+
+Expr_Node_Visitor.i: Expr_Node_Visitor.cpp.i
+
+.PHONY : Expr_Node_Visitor.i
+
+# target to preprocess a source file
+Expr_Node_Visitor.cpp.i:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.i
+.PHONY : Expr_Node_Visitor.cpp.i
+
+Expr_Node_Visitor.s: Expr_Node_Visitor.cpp.s
+
+.PHONY : Expr_Node_Visitor.s
+
+# target to generate assembly for a file
+Expr_Node_Visitor.cpp.s:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.s
+.PHONY : Expr_Node_Visitor.cpp.s
+
 Modulus_Node.obj: Modulus_Node.cpp.obj
 
 .PHONY : Modulus_Node.obj
@@ -641,6 +668,9 @@ help:
 	@echo ... Expr_Node.obj
 	@echo ... Expr_Node.i
 	@echo ... Expr_Node.s
+	@echo ... Expr_Node_Visitor.obj
+	@echo ... Expr_Node_Visitor.i
+	@echo ... Expr_Node_Visitor.s
 	@echo ... Modulus_Node.obj
 	@echo ... Modulus_Node.i
 	@echo ... Modulus_Node.s
