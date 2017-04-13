@@ -143,6 +143,7 @@ Array<Expr_Node *> postfix(Array<std::string> expressions, Stack_Expr_Command_Fa
 
 int main()
 {
+    /*
     Stack <int> s;
     Stack_Expr_Command_Factory factory(s);
     Array<std::string> inputs;
@@ -162,14 +163,13 @@ int main()
                 {
                     if (isalpha(c))
                     {
-                        /*
-                      std :: cout << "\n" << c << "=";
-                      int value = 0;
-                      std :: cin >> value;
+                      //std :: cout << "\n" << c << "=";
+                      //int value = 0;
+                      //std :: cin >> value;
                       //std :: string s = std :: to_string(value);
-                      std :: cout << std::endl << "number to be added: " << s << std :: endl;
-                      expression += s;
-                        */
+                      //std :: cout << std::endl << "number to be added: " << s << std :: endl;
+                      //expression += s;
+
                     } //end if
 
                     else
@@ -199,6 +199,7 @@ int main()
         postfixArr[i]->execute();
     }
     std::cout<<s.top();
+    */
 
     return 0;
 } //end main

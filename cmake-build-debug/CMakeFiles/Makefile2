@@ -44,19 +44,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2016.3.4\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files (x86)\JetBrains\CLion 2016.3.4\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2"
+CMAKE_SOURCE_DIR = "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug"
 
 #=============================================================================
 # Target rules for target CMakeFiles/calculator2.dir
@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = "C:\Users\Ninjalazer\Documents\School\Principles of Software 
 CMakeFiles/calculator2.dir/all:
 	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/depend
 	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 "Built target calculator2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target calculator2"
 .PHONY : CMakeFiles/calculator2.dir/all
 
 # Include target in all.
@@ -75,9 +75,9 @@ all: CMakeFiles/calculator2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/calculator2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" 20
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" 19
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/calculator2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/calculator2.dir/rule
 
 # Convenience name for target.

@@ -21,7 +21,7 @@ public:
     virtual void Visit_Sub_Node (const Sub_Node & node);
     virtual void Visit_Mult_Node (const Mult_Node & node);
     virtual void Visit_Div_Node (const Div_Node & node);
-    virtual void Visit_Mod_node (const Modulus_Node & node);
+    virtual void Visit_Mod_Node (const Modulus_Node & node);
     virtual void Visit_Num_Node (const Num_Node & node);
 }; //end Expr_Node_Visitor
 

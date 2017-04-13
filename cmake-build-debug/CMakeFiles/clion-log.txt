@@ -1,4 +1,4 @@
-"C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2"
+"C:\Program Files (x86)\JetBrains\CLion 2016.3.4\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2"
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/cmake-build-debug
+-- Build files have been written to: C:/C/Users/Dylan/Documents/School/Principles of Software Design/calculator2/cmake-build-debug
