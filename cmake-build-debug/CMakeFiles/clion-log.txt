@@ -1,4 +1,80 @@
-"C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2"
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/cmake-build-debug
+/home/professor-rhymes/Documents/installations/clion-2017.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is unknown
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- broken
+CMake Error at /home/professor-rhymes/Documents/installations/clion-2017.1.1/bin/cmake/share/cmake-3.7/Modules/CMakeTestCCompiler.cmake:51 (message):
+  The C compiler "/usr/bin/cc" is not able to compile a simple test program.
+
+  It fails with the following output:
+
+   Change Dir: /home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/cmake-build-debug/CMakeFiles/CMakeTmp
+
+  
+
+  Run Build Command:"/usr/bin/make" "cmTC_6f791/fast"
+
+  /usr/bin/make -f CMakeFiles/cmTC_6f791.dir/build.make
+  CMakeFiles/cmTC_6f791.dir/build
+
+  make[1]: Entering directory
+  '/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+  Building C object CMakeFiles/cmTC_6f791.dir/testCCompiler.c.o
+
+  /usr/bin/cc -o CMakeFiles/cmTC_6f791.dir/testCCompiler.c.o -c
+  /home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+
+
+  Linking C executable cmTC_6f791
+
+  
+  /home/professor-rhymes/Documents/installations/clion-2017.1.1/bin/cmake/bin/cmake
+  -E cmake_link_script CMakeFiles/cmTC_6f791.dir/link.txt --verbose=1
+
+  /usr/bin/cc CMakeFiles/cmTC_6f791.dir/testCCompiler.c.o -o cmTC_6f791
+
+  /usr/bin/ld: cannot find crt1.o: No such file or directory
+
+  /usr/bin/ld: cannot find crti.o: No such file or directory
+
+  /usr/bin/ld: cannot find -lc
+
+  /usr/bin/ld: cannot find crtn.o: No such file or directory
+
+  collect2: error: ld returned 1 exit status
+
+  CMakeFiles/cmTC_6f791.dir/build.make:97: recipe for target 'cmTC_6f791'
+  failed
+
+  make[1]: *** [cmTC_6f791] Error 1
+
+  make[1]: Leaving directory
+  '/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+  Makefile:126: recipe for target 'cmTC_6f791/fast' failed
+
+  make: *** [cmTC_6f791/fast] Error 2
+
+  
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_CXX_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/cmake-build-debug/CMakeFiles/CMakeError.log".

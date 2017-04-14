@@ -15,6 +15,9 @@ public:
     virtual void build_mult_operator (void);
     virtual void build_div_operator (void);
     virtual void build_mod_operator (void);
+
+    //TODO
+    //we need both open and close paren objects? Was that mentioned in class? Might want to look through notes
     virtual void build_open_paren (void);
     virtual void build_close_paren (void);
     Expr_Tree * get_expression (void);
