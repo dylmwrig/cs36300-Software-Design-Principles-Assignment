@@ -1,8 +1,9 @@
 #include "Expr_Tree_Builder.h"
+#include "Num_Node.h"
 
 Expr_Tree_Builder :: Expr_Tree_Builder() : tree_() { }
 
-~Expr_Tree_Builder :: Expr_Tree_Builder()
+Expr_Tree_Builder :: ~Expr_Tree_Builder()
 {
     delete tree_;
 } //end destructor
@@ -38,19 +39,19 @@ virtual void Expr_Tree_Builder :: build_sub_operator()
 
 virtual void Expr_Tree_Builder :: build_mult_operator()
 {
-    Mult_Node toAdd = Mult_Node(n);
+    Mult_Node toAdd = Mult_Node();
     tree_->add(toAdd);
 } //end build_num
 
 virtual void Expr_Tree_Builder ::build_div_operator()
 {
-    Div_Node toAdd = Div_Node(n);
+    Div_Node toAdd = Div_Node();
     tree_->add(toAdd);
 } //end build_num
 
 virtual void Expr_Tree_Builder :: build_mod_operator()
 {
-    Modulus_Node toAdd = Modulus_Node(n);
+    Modulus_Node toAdd = Modulus_Node();
     tree_->add(toAdd);
 } //end build_num
 

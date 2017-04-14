@@ -365,6 +365,33 @@ Expr_Node_Visitor.cpp.s:
 	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.s
 .PHONY : Expr_Node_Visitor.cpp.s
 
+Expr_Tree.obj: Expr_Tree.cpp.obj
+
+.PHONY : Expr_Tree.obj
+
+# target to build an object file
+Expr_Tree.cpp.obj:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Tree.cpp.obj
+.PHONY : Expr_Tree.cpp.obj
+
+Expr_Tree.i: Expr_Tree.cpp.i
+
+.PHONY : Expr_Tree.i
+
+# target to preprocess a source file
+Expr_Tree.cpp.i:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Tree.cpp.i
+.PHONY : Expr_Tree.cpp.i
+
+Expr_Tree.s: Expr_Tree.cpp.s
+
+.PHONY : Expr_Tree.s
+
+# target to generate assembly for a file
+Expr_Tree.cpp.s:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Tree.cpp.s
+.PHONY : Expr_Tree.cpp.s
+
 Expr_Tree_Builder.obj: Expr_Tree_Builder.cpp.obj
 
 .PHONY : Expr_Tree_Builder.obj
@@ -698,6 +725,9 @@ help:
 	@echo ... Expr_Node_Visitor.obj
 	@echo ... Expr_Node_Visitor.i
 	@echo ... Expr_Node_Visitor.s
+	@echo ... Expr_Tree.obj
+	@echo ... Expr_Tree.i
+	@echo ... Expr_Tree.s
 	@echo ... Expr_Tree_Builder.obj
 	@echo ... Expr_Tree_Builder.i
 	@echo ... Expr_Tree_Builder.s

@@ -7,7 +7,7 @@ class Expr_Tree_Builder : public Expr_Builder
 {
 public:
     Expr_Tree_Builder (void);
-    virtual ~Expr_Builder_Tree (void);
+    virtual ~Expr_Tree_Builder (void);
     virtual void start_expression (void);
     virtual void build_num (int n);
     virtual void build_add_operator (void);
