@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2016.3.4\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files (x86)\JetBrains\CLion 2016.3.4\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2"
+CMAKE_SOURCE_DIR = "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/calculator2.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/calculator2.dir/flags.make
 
 CMakeFiles/calculator2.dir/Add_Node.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Add_Node.cpp.obj: ../Add_Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calculator2.dir/Add_Node.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Add_Node.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Add_Node.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calculator2.dir/Add_Node.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Add_Node.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Add_Node.cpp"
 
 CMakeFiles/calculator2.dir/Add_Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Add_Node.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Add_Node.cpp" > CMakeFiles\calculator2.dir\Add_Node.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Add_Node.cpp" > CMakeFiles\calculator2.dir\Add_Node.cpp.i
 
 CMakeFiles/calculator2.dir/Add_Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Add_Node.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Add_Node.cpp" -o CMakeFiles\calculator2.dir\Add_Node.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Add_Node.cpp" -o CMakeFiles\calculator2.dir\Add_Node.cpp.s
 
 CMakeFiles/calculator2.dir/Add_Node.cpp.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/calculator2.dir/Add_Node.cpp.obj.provides.build: CMakeFiles/calculato
 
 CMakeFiles/calculator2.dir/Array.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Array.cpp.obj: ../Array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculator2.dir/Array.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Array.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Array.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculator2.dir/Array.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Array.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Array.cpp"
 
 CMakeFiles/calculator2.dir/Array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Array.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Array.cpp" > CMakeFiles\calculator2.dir\Array.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Array.cpp" > CMakeFiles\calculator2.dir\Array.cpp.i
 
 CMakeFiles/calculator2.dir/Array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Array.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Array.cpp" -o CMakeFiles\calculator2.dir\Array.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Array.cpp" -o CMakeFiles\calculator2.dir\Array.cpp.s
 
 CMakeFiles/calculator2.dir/Array.cpp.obj.requires:
 
@@ -106,16 +106,16 @@ CMakeFiles/calculator2.dir/Array.cpp.obj.provides.build: CMakeFiles/calculator2.
 
 CMakeFiles/calculator2.dir/Array_Iterator.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Array_Iterator.cpp.obj: ../Array_Iterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calculator2.dir/Array_Iterator.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Array_Iterator.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Array_Iterator.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calculator2.dir/Array_Iterator.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Array_Iterator.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Array_Iterator.cpp"
 
 CMakeFiles/calculator2.dir/Array_Iterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Array_Iterator.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Array_Iterator.cpp" > CMakeFiles\calculator2.dir\Array_Iterator.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Array_Iterator.cpp" > CMakeFiles\calculator2.dir\Array_Iterator.cpp.i
 
 CMakeFiles/calculator2.dir/Array_Iterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Array_Iterator.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Array_Iterator.cpp" -o CMakeFiles\calculator2.dir\Array_Iterator.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Array_Iterator.cpp" -o CMakeFiles\calculator2.dir\Array_Iterator.cpp.s
 
 CMakeFiles/calculator2.dir/Array_Iterator.cpp.obj.requires:
 
@@ -130,16 +130,16 @@ CMakeFiles/calculator2.dir/Array_Iterator.cpp.obj.provides.build: CMakeFiles/cal
 
 CMakeFiles/calculator2.dir/Binary_Expr_Node.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Binary_Expr_Node.cpp.obj: ../Binary_Expr_Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/calculator2.dir/Binary_Expr_Node.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Binary_Expr_Node.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Binary_Expr_Node.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/calculator2.dir/Binary_Expr_Node.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Binary_Expr_Node.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Binary_Expr_Node.cpp"
 
 CMakeFiles/calculator2.dir/Binary_Expr_Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Binary_Expr_Node.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Binary_Expr_Node.cpp" > CMakeFiles\calculator2.dir\Binary_Expr_Node.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Binary_Expr_Node.cpp" > CMakeFiles\calculator2.dir\Binary_Expr_Node.cpp.i
 
 CMakeFiles/calculator2.dir/Binary_Expr_Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Binary_Expr_Node.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Binary_Expr_Node.cpp" -o CMakeFiles\calculator2.dir\Binary_Expr_Node.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Binary_Expr_Node.cpp" -o CMakeFiles\calculator2.dir\Binary_Expr_Node.cpp.s
 
 CMakeFiles/calculator2.dir/Binary_Expr_Node.cpp.obj.requires:
 
@@ -154,16 +154,16 @@ CMakeFiles/calculator2.dir/Binary_Expr_Node.cpp.obj.provides.build: CMakeFiles/c
 
 CMakeFiles/calculator2.dir/Div_Node.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Div_Node.cpp.obj: ../Div_Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/calculator2.dir/Div_Node.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Div_Node.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Div_Node.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/calculator2.dir/Div_Node.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Div_Node.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Div_Node.cpp"
 
 CMakeFiles/calculator2.dir/Div_Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Div_Node.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Div_Node.cpp" > CMakeFiles\calculator2.dir\Div_Node.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Div_Node.cpp" > CMakeFiles\calculator2.dir\Div_Node.cpp.i
 
 CMakeFiles/calculator2.dir/Div_Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Div_Node.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Div_Node.cpp" -o CMakeFiles\calculator2.dir\Div_Node.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Div_Node.cpp" -o CMakeFiles\calculator2.dir\Div_Node.cpp.s
 
 CMakeFiles/calculator2.dir/Div_Node.cpp.obj.requires:
 
@@ -178,16 +178,16 @@ CMakeFiles/calculator2.dir/Div_Node.cpp.obj.provides.build: CMakeFiles/calculato
 
 CMakeFiles/calculator2.dir/driver.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/driver.cpp.obj: ../driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/calculator2.dir/driver.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\driver.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\driver.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/calculator2.dir/driver.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\driver.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\driver.cpp"
 
 CMakeFiles/calculator2.dir/driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/driver.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\driver.cpp" > CMakeFiles\calculator2.dir\driver.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\driver.cpp" > CMakeFiles\calculator2.dir\driver.cpp.i
 
 CMakeFiles/calculator2.dir/driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/driver.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\driver.cpp" -o CMakeFiles\calculator2.dir\driver.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\driver.cpp" -o CMakeFiles\calculator2.dir\driver.cpp.s
 
 CMakeFiles/calculator2.dir/driver.cpp.obj.requires:
 
@@ -202,16 +202,16 @@ CMakeFiles/calculator2.dir/driver.cpp.obj.provides.build: CMakeFiles/calculator2
 
 CMakeFiles/calculator2.dir/Expr_Node.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Expr_Node.cpp.obj: ../Expr_Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/calculator2.dir/Expr_Node.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Expr_Node.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Expr_Node.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/calculator2.dir/Expr_Node.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Expr_Node.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Expr_Node.cpp"
 
 CMakeFiles/calculator2.dir/Expr_Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Expr_Node.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Expr_Node.cpp" > CMakeFiles\calculator2.dir\Expr_Node.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Expr_Node.cpp" > CMakeFiles\calculator2.dir\Expr_Node.cpp.i
 
 CMakeFiles/calculator2.dir/Expr_Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Expr_Node.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Expr_Node.cpp" -o CMakeFiles\calculator2.dir\Expr_Node.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Expr_Node.cpp" -o CMakeFiles\calculator2.dir\Expr_Node.cpp.s
 
 CMakeFiles/calculator2.dir/Expr_Node.cpp.obj.requires:
 
@@ -226,16 +226,16 @@ CMakeFiles/calculator2.dir/Expr_Node.cpp.obj.provides.build: CMakeFiles/calculat
 
 CMakeFiles/calculator2.dir/Modulus_Node.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Modulus_Node.cpp.obj: ../Modulus_Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/calculator2.dir/Modulus_Node.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Modulus_Node.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Modulus_Node.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/calculator2.dir/Modulus_Node.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Modulus_Node.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Modulus_Node.cpp"
 
 CMakeFiles/calculator2.dir/Modulus_Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Modulus_Node.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Modulus_Node.cpp" > CMakeFiles\calculator2.dir\Modulus_Node.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Modulus_Node.cpp" > CMakeFiles\calculator2.dir\Modulus_Node.cpp.i
 
 CMakeFiles/calculator2.dir/Modulus_Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Modulus_Node.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Modulus_Node.cpp" -o CMakeFiles\calculator2.dir\Modulus_Node.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Modulus_Node.cpp" -o CMakeFiles\calculator2.dir\Modulus_Node.cpp.s
 
 CMakeFiles/calculator2.dir/Modulus_Node.cpp.obj.requires:
 
@@ -250,16 +250,16 @@ CMakeFiles/calculator2.dir/Modulus_Node.cpp.obj.provides.build: CMakeFiles/calcu
 
 CMakeFiles/calculator2.dir/Mult_Node.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Mult_Node.cpp.obj: ../Mult_Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/calculator2.dir/Mult_Node.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Mult_Node.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Mult_Node.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/calculator2.dir/Mult_Node.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Mult_Node.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Mult_Node.cpp"
 
 CMakeFiles/calculator2.dir/Mult_Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Mult_Node.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Mult_Node.cpp" > CMakeFiles\calculator2.dir\Mult_Node.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Mult_Node.cpp" > CMakeFiles\calculator2.dir\Mult_Node.cpp.i
 
 CMakeFiles/calculator2.dir/Mult_Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Mult_Node.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Mult_Node.cpp" -o CMakeFiles\calculator2.dir\Mult_Node.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Mult_Node.cpp" -o CMakeFiles\calculator2.dir\Mult_Node.cpp.s
 
 CMakeFiles/calculator2.dir/Mult_Node.cpp.obj.requires:
 
@@ -274,16 +274,16 @@ CMakeFiles/calculator2.dir/Mult_Node.cpp.obj.provides.build: CMakeFiles/calculat
 
 CMakeFiles/calculator2.dir/Num_Node.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Num_Node.cpp.obj: ../Num_Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/calculator2.dir/Num_Node.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Num_Node.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Num_Node.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/calculator2.dir/Num_Node.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Num_Node.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Num_Node.cpp"
 
 CMakeFiles/calculator2.dir/Num_Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Num_Node.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Num_Node.cpp" > CMakeFiles\calculator2.dir\Num_Node.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Num_Node.cpp" > CMakeFiles\calculator2.dir\Num_Node.cpp.i
 
 CMakeFiles/calculator2.dir/Num_Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Num_Node.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Num_Node.cpp" -o CMakeFiles\calculator2.dir\Num_Node.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Num_Node.cpp" -o CMakeFiles\calculator2.dir\Num_Node.cpp.s
 
 CMakeFiles/calculator2.dir/Num_Node.cpp.obj.requires:
 
@@ -298,16 +298,16 @@ CMakeFiles/calculator2.dir/Num_Node.cpp.obj.provides.build: CMakeFiles/calculato
 
 CMakeFiles/calculator2.dir/Paren_Command.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Paren_Command.cpp.obj: ../Paren_Command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/calculator2.dir/Paren_Command.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Paren_Command.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Paren_Command.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/calculator2.dir/Paren_Command.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Paren_Command.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Paren_Command.cpp"
 
 CMakeFiles/calculator2.dir/Paren_Command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Paren_Command.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Paren_Command.cpp" > CMakeFiles\calculator2.dir\Paren_Command.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Paren_Command.cpp" > CMakeFiles\calculator2.dir\Paren_Command.cpp.i
 
 CMakeFiles/calculator2.dir/Paren_Command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Paren_Command.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Paren_Command.cpp" -o CMakeFiles\calculator2.dir\Paren_Command.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Paren_Command.cpp" -o CMakeFiles\calculator2.dir\Paren_Command.cpp.s
 
 CMakeFiles/calculator2.dir/Paren_Command.cpp.obj.requires:
 
@@ -322,16 +322,16 @@ CMakeFiles/calculator2.dir/Paren_Command.cpp.obj.provides.build: CMakeFiles/calc
 
 CMakeFiles/calculator2.dir/Stack.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Stack.cpp.obj: ../Stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/calculator2.dir/Stack.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Stack.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Stack.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/calculator2.dir/Stack.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Stack.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Stack.cpp"
 
 CMakeFiles/calculator2.dir/Stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Stack.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Stack.cpp" > CMakeFiles\calculator2.dir\Stack.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Stack.cpp" > CMakeFiles\calculator2.dir\Stack.cpp.i
 
 CMakeFiles/calculator2.dir/Stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Stack.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Stack.cpp" -o CMakeFiles\calculator2.dir\Stack.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Stack.cpp" -o CMakeFiles\calculator2.dir\Stack.cpp.s
 
 CMakeFiles/calculator2.dir/Stack.cpp.obj.requires:
 
@@ -346,16 +346,16 @@ CMakeFiles/calculator2.dir/Stack.cpp.obj.provides.build: CMakeFiles/calculator2.
 
 CMakeFiles/calculator2.dir/Stack_Expr_Command_Factory.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Stack_Expr_Command_Factory.cpp.obj: ../Stack_Expr_Command_Factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/calculator2.dir/Stack_Expr_Command_Factory.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Stack_Expr_Command_Factory.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Stack_Expr_Command_Factory.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/calculator2.dir/Stack_Expr_Command_Factory.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Stack_Expr_Command_Factory.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Stack_Expr_Command_Factory.cpp"
 
 CMakeFiles/calculator2.dir/Stack_Expr_Command_Factory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Stack_Expr_Command_Factory.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Stack_Expr_Command_Factory.cpp" > CMakeFiles\calculator2.dir\Stack_Expr_Command_Factory.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Stack_Expr_Command_Factory.cpp" > CMakeFiles\calculator2.dir\Stack_Expr_Command_Factory.cpp.i
 
 CMakeFiles/calculator2.dir/Stack_Expr_Command_Factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Stack_Expr_Command_Factory.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Stack_Expr_Command_Factory.cpp" -o CMakeFiles\calculator2.dir\Stack_Expr_Command_Factory.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Stack_Expr_Command_Factory.cpp" -o CMakeFiles\calculator2.dir\Stack_Expr_Command_Factory.cpp.s
 
 CMakeFiles/calculator2.dir/Stack_Expr_Command_Factory.cpp.obj.requires:
 
@@ -370,16 +370,16 @@ CMakeFiles/calculator2.dir/Stack_Expr_Command_Factory.cpp.obj.provides.build: CM
 
 CMakeFiles/calculator2.dir/Sub_Node.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Sub_Node.cpp.obj: ../Sub_Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/calculator2.dir/Sub_Node.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Sub_Node.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Sub_Node.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/calculator2.dir/Sub_Node.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Sub_Node.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Sub_Node.cpp"
 
 CMakeFiles/calculator2.dir/Sub_Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Sub_Node.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Sub_Node.cpp" > CMakeFiles\calculator2.dir\Sub_Node.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Sub_Node.cpp" > CMakeFiles\calculator2.dir\Sub_Node.cpp.i
 
 CMakeFiles/calculator2.dir/Sub_Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Sub_Node.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Sub_Node.cpp" -o CMakeFiles\calculator2.dir\Sub_Node.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Sub_Node.cpp" -o CMakeFiles\calculator2.dir\Sub_Node.cpp.s
 
 CMakeFiles/calculator2.dir/Sub_Node.cpp.obj.requires:
 
@@ -394,16 +394,16 @@ CMakeFiles/calculator2.dir/Sub_Node.cpp.obj.provides.build: CMakeFiles/calculato
 
 CMakeFiles/calculator2.dir/Variable_Command.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Variable_Command.cpp.obj: ../Variable_Command.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/calculator2.dir/Variable_Command.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Variable_Command.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Variable_Command.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/calculator2.dir/Variable_Command.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Variable_Command.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Variable_Command.cpp"
 
 CMakeFiles/calculator2.dir/Variable_Command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Variable_Command.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Variable_Command.cpp" > CMakeFiles\calculator2.dir\Variable_Command.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Variable_Command.cpp" > CMakeFiles\calculator2.dir\Variable_Command.cpp.i
 
 CMakeFiles/calculator2.dir/Variable_Command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Variable_Command.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Variable_Command.cpp" -o CMakeFiles\calculator2.dir\Variable_Command.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Variable_Command.cpp" -o CMakeFiles\calculator2.dir\Variable_Command.cpp.s
 
 CMakeFiles/calculator2.dir/Variable_Command.cpp.obj.requires:
 
@@ -418,16 +418,16 @@ CMakeFiles/calculator2.dir/Variable_Command.cpp.obj.provides.build: CMakeFiles/c
 
 CMakeFiles/calculator2.dir/Unary_Expr_Node.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Unary_Expr_Node.cpp.obj: ../Unary_Expr_Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/calculator2.dir/Unary_Expr_Node.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Unary_Expr_Node.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Unary_Expr_Node.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/calculator2.dir/Unary_Expr_Node.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Unary_Expr_Node.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Unary_Expr_Node.cpp"
 
 CMakeFiles/calculator2.dir/Unary_Expr_Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Unary_Expr_Node.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Unary_Expr_Node.cpp" > CMakeFiles\calculator2.dir\Unary_Expr_Node.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Unary_Expr_Node.cpp" > CMakeFiles\calculator2.dir\Unary_Expr_Node.cpp.i
 
 CMakeFiles/calculator2.dir/Unary_Expr_Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Unary_Expr_Node.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Unary_Expr_Node.cpp" -o CMakeFiles\calculator2.dir\Unary_Expr_Node.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Unary_Expr_Node.cpp" -o CMakeFiles\calculator2.dir\Unary_Expr_Node.cpp.s
 
 CMakeFiles/calculator2.dir/Unary_Expr_Node.cpp.obj.requires:
 
@@ -442,16 +442,16 @@ CMakeFiles/calculator2.dir/Unary_Expr_Node.cpp.obj.provides.build: CMakeFiles/ca
 
 CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.obj: ../Eval_Expr_Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Eval_Expr_Tree.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Eval_Expr_Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Eval_Expr_Tree.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Eval_Expr_Tree.cpp"
 
 CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Eval_Expr_Tree.cpp" > CMakeFiles\calculator2.dir\Eval_Expr_Tree.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Eval_Expr_Tree.cpp" > CMakeFiles\calculator2.dir\Eval_Expr_Tree.cpp.i
 
 CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Eval_Expr_Tree.cpp" -o CMakeFiles\calculator2.dir\Eval_Expr_Tree.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Eval_Expr_Tree.cpp" -o CMakeFiles\calculator2.dir\Eval_Expr_Tree.cpp.s
 
 CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.obj.requires:
 
@@ -466,16 +466,16 @@ CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.obj.provides.build: CMakeFiles/cal
 
 CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj: CMakeFiles/calculator2.dir/flags.make
 CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj: ../Expr_Node_Visitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Expr_Node_Visitor.cpp.obj -c "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Expr_Node_Visitor.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Expr_Node_Visitor.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Expr_Node_Visitor.cpp"
 
 CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Expr_Node_Visitor.cpp" > CMakeFiles\calculator2.dir\Expr_Node_Visitor.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Expr_Node_Visitor.cpp" > CMakeFiles\calculator2.dir\Expr_Node_Visitor.cpp.i
 
 CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\Expr_Node_Visitor.cpp" -o CMakeFiles\calculator2.dir\Expr_Node_Visitor.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Expr_Node_Visitor.cpp" -o CMakeFiles\calculator2.dir\Expr_Node_Visitor.cpp.s
 
 CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj.requires:
 
@@ -486,6 +486,54 @@ CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj.provides: CMakeFiles/calcul
 .PHONY : CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj.provides
 
 CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj.provides.build: CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj
+
+
+CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj: CMakeFiles/calculator2.dir/flags.make
+CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj: ../Expr_Builder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Expr_Builder.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Expr_Builder.cpp"
+
+CMakeFiles/calculator2.dir/Expr_Builder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Expr_Builder.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Expr_Builder.cpp" > CMakeFiles\calculator2.dir\Expr_Builder.cpp.i
+
+CMakeFiles/calculator2.dir/Expr_Builder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Expr_Builder.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Expr_Builder.cpp" -o CMakeFiles\calculator2.dir\Expr_Builder.cpp.s
+
+CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj.requires:
+
+.PHONY : CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj.requires
+
+CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj.provides: CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj.provides.build
+.PHONY : CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj.provides
+
+CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj.provides.build: CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj
+
+
+CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj: CMakeFiles/calculator2.dir/flags.make
+CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj: ../Expr_Tree_Builder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\calculator2.dir\Expr_Tree_Builder.cpp.obj -c "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Expr_Tree_Builder.cpp"
+
+CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Expr_Tree_Builder.cpp" > CMakeFiles\calculator2.dir\Expr_Tree_Builder.cpp.i
+
+CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\Expr_Tree_Builder.cpp" -o CMakeFiles\calculator2.dir\Expr_Tree_Builder.cpp.s
+
+CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj.requires:
+
+.PHONY : CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj.requires
+
+CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj.provides: CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj.provides.build
+.PHONY : CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj.provides
+
+CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj.provides.build: CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj
 
 
 # Object files for target calculator2
@@ -507,7 +555,9 @@ calculator2_OBJECTS = \
 "CMakeFiles/calculator2.dir/Variable_Command.cpp.obj" \
 "CMakeFiles/calculator2.dir/Unary_Expr_Node.cpp.obj" \
 "CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.obj" \
-"CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj"
+"CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj" \
+"CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj" \
+"CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj"
 
 # External object files for target calculator2
 calculator2_EXTERNAL_OBJECTS =
@@ -530,11 +580,13 @@ calculator2.exe: CMakeFiles/calculator2.dir/Variable_Command.cpp.obj
 calculator2.exe: CMakeFiles/calculator2.dir/Unary_Expr_Node.cpp.obj
 calculator2.exe: CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.obj
 calculator2.exe: CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj
+calculator2.exe: CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj
+calculator2.exe: CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj
 calculator2.exe: CMakeFiles/calculator2.dir/build.make
 calculator2.exe: CMakeFiles/calculator2.dir/linklibs.rsp
 calculator2.exe: CMakeFiles/calculator2.dir/objects1.rsp
 calculator2.exe: CMakeFiles/calculator2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable calculator2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable calculator2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\calculator2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -560,6 +612,8 @@ CMakeFiles/calculator2.dir/requires: CMakeFiles/calculator2.dir/Variable_Command
 CMakeFiles/calculator2.dir/requires: CMakeFiles/calculator2.dir/Unary_Expr_Node.cpp.obj.requires
 CMakeFiles/calculator2.dir/requires: CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.obj.requires
 CMakeFiles/calculator2.dir/requires: CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj.requires
+CMakeFiles/calculator2.dir/requires: CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj.requires
+CMakeFiles/calculator2.dir/requires: CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj.requires
 
 .PHONY : CMakeFiles/calculator2.dir/requires
 
@@ -568,6 +622,6 @@ CMakeFiles/calculator2.dir/clean:
 .PHONY : CMakeFiles/calculator2.dir/clean
 
 CMakeFiles/calculator2.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2" "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2" "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug" "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug" "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles\calculator2.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2" "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2" "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug" "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug" "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles\calculator2.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/calculator2.dir/depend
 

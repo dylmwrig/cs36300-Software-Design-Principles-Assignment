@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2016.3.4\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files (x86)\JetBrains\CLion 2016.3.4\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2"
+CMAKE_SOURCE_DIR = "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = "C:\C\Users\Dylan\Documents\School\Principles of Software Des
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files (x86)\JetBrains\CLion 2016.3.4\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,7 +69,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files (x86)\JetBrains\CLion 2016.3.4\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\C\Users\Dylan\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Ninjalazer\Documents\School\Principles of Software Design\calculator2\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -284,6 +284,33 @@ Eval_Expr_Tree.cpp.s:
 	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.s
 .PHONY : Eval_Expr_Tree.cpp.s
 
+Expr_Builder.obj: Expr_Builder.cpp.obj
+
+.PHONY : Expr_Builder.obj
+
+# target to build an object file
+Expr_Builder.cpp.obj:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj
+.PHONY : Expr_Builder.cpp.obj
+
+Expr_Builder.i: Expr_Builder.cpp.i
+
+.PHONY : Expr_Builder.i
+
+# target to preprocess a source file
+Expr_Builder.cpp.i:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Builder.cpp.i
+.PHONY : Expr_Builder.cpp.i
+
+Expr_Builder.s: Expr_Builder.cpp.s
+
+.PHONY : Expr_Builder.s
+
+# target to generate assembly for a file
+Expr_Builder.cpp.s:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Builder.cpp.s
+.PHONY : Expr_Builder.cpp.s
+
 Expr_Node.obj: Expr_Node.cpp.obj
 
 .PHONY : Expr_Node.obj
@@ -337,6 +364,33 @@ Expr_Node_Visitor.s: Expr_Node_Visitor.cpp.s
 Expr_Node_Visitor.cpp.s:
 	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.s
 .PHONY : Expr_Node_Visitor.cpp.s
+
+Expr_Tree_Builder.obj: Expr_Tree_Builder.cpp.obj
+
+.PHONY : Expr_Tree_Builder.obj
+
+# target to build an object file
+Expr_Tree_Builder.cpp.obj:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj
+.PHONY : Expr_Tree_Builder.cpp.obj
+
+Expr_Tree_Builder.i: Expr_Tree_Builder.cpp.i
+
+.PHONY : Expr_Tree_Builder.i
+
+# target to preprocess a source file
+Expr_Tree_Builder.cpp.i:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.i
+.PHONY : Expr_Tree_Builder.cpp.i
+
+Expr_Tree_Builder.s: Expr_Tree_Builder.cpp.s
+
+.PHONY : Expr_Tree_Builder.s
+
+# target to generate assembly for a file
+Expr_Tree_Builder.cpp.s:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.s
+.PHONY : Expr_Tree_Builder.cpp.s
 
 Modulus_Node.obj: Modulus_Node.cpp.obj
 
@@ -635,12 +689,18 @@ help:
 	@echo ... Eval_Expr_Tree.obj
 	@echo ... Eval_Expr_Tree.i
 	@echo ... Eval_Expr_Tree.s
+	@echo ... Expr_Builder.obj
+	@echo ... Expr_Builder.i
+	@echo ... Expr_Builder.s
 	@echo ... Expr_Node.obj
 	@echo ... Expr_Node.i
 	@echo ... Expr_Node.s
 	@echo ... Expr_Node_Visitor.obj
 	@echo ... Expr_Node_Visitor.i
 	@echo ... Expr_Node_Visitor.s
+	@echo ... Expr_Tree_Builder.obj
+	@echo ... Expr_Tree_Builder.i
+	@echo ... Expr_Tree_Builder.s
 	@echo ... Modulus_Node.obj
 	@echo ... Modulus_Node.i
 	@echo ... Modulus_Node.s
