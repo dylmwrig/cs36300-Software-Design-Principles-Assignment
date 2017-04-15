@@ -40,6 +40,16 @@ bool Calculator :: parse_expr (const std::string & infix)
         {
             this->builder_.build_mod_operator();
         } //end else if
+
+        else if (token == "(")
+        {
+            this->builder_.build_open_paren();
+        } //end else if
+
+        else if (token == ")")
+        {
+            this->builder_.build_close_paren();
+        } //end else if
     } //end while
     return true;
 } //end parse_expr

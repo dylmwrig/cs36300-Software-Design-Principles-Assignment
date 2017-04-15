@@ -1,6 +1,8 @@
 #include "Expr_Tree_Builder.h"
 #include "Num_Node.h"
 #include "Expr_Tree.h"
+#include "Open_Paren_Node.h"
+#include "Close_Paren_Node.h"
 
 Expr_Tree_Builder :: Expr_Tree_Builder() : tree_() { }
 
@@ -63,44 +65,48 @@ Expr_Tree * Expr_Tree_Builder :: get_expression (void)
 //builders which add each operation to the expression tree
 virtual void Expr_Tree_Builder :: build_num(int n)
 {
-    Num_Node toAdd = Num_Node(n);
+    Num_Node * toAdd = new Num_Node(n);
     tree_->add(toAdd);
 } //end build_num
 
 virtual void Expr_Tree_Builder :: build_add_operator()
 {
-    Add_Node toAdd = Add_Node();
+    Add_Node * toAdd = new Add_Node();
     tree_->add(toAdd);
-} //end build_num
+} //end build_add_operator
 
 virtual void Expr_Tree_Builder :: build_sub_operator()
 {
-    Sub_Node toAdd = Sub_Node();
+    Sub_Node * toAdd = new Sub_Node();
     tree_->add(toAdd);
-} //end build_num
+} //end build_sub_operator
 
 virtual void Expr_Tree_Builder :: build_mult_operator()
 {
-    Mult_Node toAdd = Mult_Node();
+    Mult_Node * toAdd = new Mult_Node();
     tree_->add(toAdd);
-} //end build_num
+} //end build_mult_operator
 
 virtual void Expr_Tree_Builder ::build_div_operator()
 {
-    Div_Node toAdd = Div_Node();
+    Div_Node * toAdd = new Div_Node();
     tree_->add(toAdd);
-} //end build_num
+} //end build_div_operator
 
 virtual void Expr_Tree_Builder :: build_mod_operator()
 {
-    Modulus_Node toAdd = Modulus_Node();
+    Modulus_Node * toAdd = new Modulus_Node();
     tree_->add(toAdd);
-} //end build_num
+} //end build_mod_operator
 
-/*
 virtual void Expr_Tree_Builder :: build_open_paren()
 {
-    Left_Paren_Node toAdd = Left_Paren_Node(n);
+    Open_Paren_Node * toAdd = new Open_Paren_Node();
     tree_->add(toAdd);
-} //end build_num
- */
+} //end build_open_parem
+
+virtual void Expr_Tree_Builder ::build_close_paren()
+{
+    Close_Paren_Node * toAdd = new Close_Paren_Node();
+    tree_->add(toAdd);
+} //end build_close_paren
