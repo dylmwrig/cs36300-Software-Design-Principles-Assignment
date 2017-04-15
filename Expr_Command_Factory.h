@@ -6,7 +6,7 @@
 #include "Num_Node.h"
 #include "Div_Node.h"
 #include "Mult_Node.h"
-#include "Paren_Command.h"
+#include "Open_Paren_Node.h"
 #include "Modulus_Node.h"
 
 class Expr_Command_Factory

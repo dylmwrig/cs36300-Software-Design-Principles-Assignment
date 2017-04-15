@@ -19,7 +19,7 @@ public:
     virtual Sub_Node * create_subtract_command (void);
     virtual Div_Node * create_div_command (void);
     virtual Mult_Node * create_mult_command(void);
-    virtual Paren_Command * create_paren_command(void);
+    virtual Open_Paren_Node * create_paren_command(void);
     virtual Modulus_Node * create_mod_command(void);
 private:
     Stack <int> & s_;

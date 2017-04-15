@@ -1,5 +1,6 @@
 #include "Expr_Tree_Builder.h"
 #include "Num_Node.h"
+#include "Expr_Tree.h"
 
 Expr_Tree_Builder :: Expr_Tree_Builder() : tree_() { }
 
@@ -8,9 +9,50 @@ Expr_Tree_Builder :: ~Expr_Tree_Builder()
     delete tree_;
 } //end destructor
 
+//I believe this is where input happens because there is no parameter for input
 virtual void Expr_Tree_Builder :: start_expression ()
 {
     this->tree_ = new Expr_Tree ();
+
+    Stack <Expr_Node> nodes;
+    //TODO
+    //input stuff
+    std::string input = "3 + 5 * 2 / 1";
+
+    //taken from driver
+    /*
+    for (char c : input)
+    {
+        if (c != ' ')
+        {
+            if (isalpha(c))
+            {
+                //std :: cout << "\n" << c << "=";
+                //int value = 0;
+                //std :: cin >> value;
+                //std :: string s = std :: to_string(value);
+                //std :: cout << std::endl << "number to be added: " << s << std :: endl;
+                //expression += s;
+
+            } //end if
+
+            else
+            {
+                expression += c;
+            } //end else
+        } //end if
+
+        else
+        {
+            //Expr_Node command;
+
+            //expressions.push_back(command);
+            inputs.add(expression);
+            expression = "";
+        } //end else
+    } //end for
+
+    */
 } //end start_expression
 
 Expr_Tree * Expr_Tree_Builder :: get_expression (void)

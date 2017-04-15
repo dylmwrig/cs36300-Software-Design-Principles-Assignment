@@ -3,7 +3,7 @@
 #include "Sub_Node.h"
 #include "Num_Node.h"
 #include "Div_Node.h"
-#include "Paren_Command.h"
+#include "Open_Paren_Node.h"
 
 /*
 //TODO overloaded constructor
@@ -50,9 +50,9 @@ Mult_Node * Stack_Expr_Command_Factory :: create_mult_command (void)
     return multiplier;
 } //end create_div_command
 
-Paren_Command * Stack_Expr_Command_Factory :: create_paren_command (void)
+Open_Paren_Node * Stack_Expr_Command_Factory :: create_paren_command (void)
 {
-    Paren_Command * parenthesis = new Paren_Command(s_);
+    Open_Paren_Node * parenthesis = new Open_Paren_Node(s_);
     return parenthesis;
 } //end create_paren_command
 
