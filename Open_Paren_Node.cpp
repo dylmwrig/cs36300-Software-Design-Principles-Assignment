@@ -6,4 +6,4 @@ Open_Paren_Node :: Open_Paren_Node()
 
 //just including this to fulfillParen_Command inheritance rules
 //no need to evaluate anything since the parenthesis is just a marker in the expression
-int Open_Paren_Node :: evaluate (int n1, int n2) const { } //end evaluate
+int Open_Paren_Node :: evaluate () const { } //end evaluate

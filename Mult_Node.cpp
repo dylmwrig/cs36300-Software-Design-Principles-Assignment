@@ -5,9 +5,9 @@ Mult_Node :: Mult_Node(void)
 
 Mult_Node :: ~Mult_Node(void){ }
 
-int Mult_Node :: evaluate (int n1, int n2) const
+int Mult_Node :: evaluate (Num_Node * n1, Num_Node * n2) const
 {
-    return (n1 * n2);
+    return (n1->evaluate() * n2->evaluate());
 } //end evaluate
 
 

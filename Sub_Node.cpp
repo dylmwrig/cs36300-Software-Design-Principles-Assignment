@@ -5,9 +5,9 @@ Sub_Node :: Sub_Node(void)
 
 Sub_Node :: ~Sub_Node(void) { }
 
-int Sub_Node :: evaluate (int n1, int n2) const
+int Sub_Node :: evaluate (Num_Node * n1, Num_Node * n2) const
 {
-    return (n1 - n2);
+    return (n1->evaluate() - n2->evaluate());
 } //end evaluate
 
 virtual void Sub_Node :: accept (Expr_Node_Visitor & v)

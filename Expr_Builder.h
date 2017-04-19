@@ -2,6 +2,8 @@
 #define CALCULATOR2_EXPR_BUILDER_H
 
 
+#include "Expr_Tree.h"
+
 class Expr_Builder
 {
 public:
@@ -15,7 +17,7 @@ public:
     virtual void build_open_paren (void) = 0;
     virtual void build_close_paren (void) = 0;
 // get the current expression
-    virtual Math_Expr * get_expression (void) = 0;
+    virtual Expr_Tree * get_expression (void) = 0;
 }; //end Expr_Builder
 
 #endif //CALCULATOR2_EXPR_BUILDER_H

@@ -5,10 +5,10 @@ Div_Node ::Div_Node(void)
 
 Div_Node :: ~Div_Node(void){ }
 
-int Div_Node :: evaluate (int n1, int n2) const
+int Div_Node :: evaluate (Num_Node * n1, Num_Node * n2) const
 {
     //do not divide by zero
-    if (n2 == 0)
+    if (n2->evaluate() == 0)
     {
         std::cout<<"Unable to perform division due to divide by zero"<<std::endl;
         return 0;

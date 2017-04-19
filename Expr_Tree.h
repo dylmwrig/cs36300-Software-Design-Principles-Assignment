@@ -17,5 +17,4 @@ private:
     Expr_Node * root;
 }; //end Expr_Tree
 
-
 #endif //CALCULATOR2_EXPR_TREE_H

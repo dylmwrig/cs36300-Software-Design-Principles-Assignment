@@ -3,6 +3,8 @@
 Num_Node :: Num_Node (int n)
         :n_ (n){ }
 
+Num_Node :: ~Num_Node () { }
+
 int Num_Node :: evaluate (void)
 {
     return n_;

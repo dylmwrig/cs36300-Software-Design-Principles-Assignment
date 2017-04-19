@@ -5,9 +5,9 @@ Modulus_Node :: Modulus_Node(void)
 
 Modulus_Node :: ~Modulus_Node(void){ }
 
-int Modulus_Node :: evaluate (int n1, int n2) const
+int Modulus_Node :: evaluate (Num_Node * n1, Num_Node * n2) const
 {
-    return (n1 % n2);
+    return (n1->evaluate() % n2->evaluate());
 } //end evaluate
 
 virtual void Modulus_Node :: accept (Expr_Node_Visitor & v)

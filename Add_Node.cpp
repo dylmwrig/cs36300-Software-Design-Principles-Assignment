@@ -5,9 +5,9 @@ Add_Node :: Add_Node(void)
 
 Add_Node :: ~Add_Node(void) { }
 
-int Add_Node :: evaluate (int n1, int n2) const
+int Add_Node :: evaluate (Num_Node * n1, Num_Node * n2) const
 {
-    return (n1 + n2);
+    return (n1->evaluate() + n2->evaluate());
 } //end evaluate
 
 virtual void Add_Node :: accept (Expr_Node_Visitor & v)

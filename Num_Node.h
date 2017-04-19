@@ -9,6 +9,7 @@ class Num_Node : public Expr_Node
 {
 public:
     Num_Node (int n);
+    ~Num_Node(void);
     int evaluate (void);
     virtual void accept(Expr_Node_Visitor & v);
 protected:

@@ -10,7 +10,7 @@ public:
     Modulus_Node(void);
     ~Modulus_Node(void);
 
-    int evaluate (int n1, int n2) const;
+    int evaluate (Num_Node * n1, Num_Node * n2) const;
     virtual void accept (Expr_Node_Visitor & v);
 }; //end Modulus_Node
 
