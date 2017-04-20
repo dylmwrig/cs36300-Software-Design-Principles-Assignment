@@ -16,7 +16,7 @@ int Div_Node :: evaluate (Num_Node * n1, Num_Node * n2) const
 
     else
     {
-        return (n1 / n2);
+        return (n1->evaluate() / n2->evaluate());
     } //end else
 } //end evaluate
 

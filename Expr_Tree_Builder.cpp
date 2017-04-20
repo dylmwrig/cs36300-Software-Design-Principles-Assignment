@@ -12,17 +12,22 @@ Expr_Tree_Builder :: ~Expr_Tree_Builder()
 } //end destructor
 
 //I believe this is where input happens because there is no parameter for input
+//
+//construct a stack:
+//-when the input token is an operand, push it to the stack
+//-when the input token is an operator, pop two from the stack and make them the operator's children
+//--push the operator onto the stack
+//when you are done, the stack will only contain the root: construct the tree based on this root
 virtual void Expr_Tree_Builder :: start_expression ()
 {
     this->tree_ = new Expr_Tree ();
 
-    Stack <Expr_Node> nodes;
+    std::stack <Expr_Node> s;
     //TODO
     //input stuff
     std::string input = "3 + 5 * 2 / 1";
 
     //taken from driver
-    /*
     for (char c : input)
     {
         if (c != ' ')
@@ -53,8 +58,6 @@ virtual void Expr_Tree_Builder :: start_expression ()
             expression = "";
         } //end else
     } //end for
-
-    */
 } //end start_expression
 
 Expr_Tree * Expr_Tree_Builder :: get_expression (void)
