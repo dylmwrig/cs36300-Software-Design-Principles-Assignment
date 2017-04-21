@@ -1,16 +1,17 @@
 #include "Sub_Node.h"
+#include "Expr_Node_Visitor.h"
 
 Sub_Node :: Sub_Node(void)
         :Binary_Expr_Node() { }
 
 Sub_Node :: ~Sub_Node(void) { }
 
-int Sub_Node :: evaluate (Num_Node * n1, Num_Node * n2) const
+int Sub_Node :: evaluate () const
 {
-    return (n1->evaluate() - n2->evaluate());
+    return (left_->evaluate() - right_->evaluate());
 } //end evaluate
 
-virtual void Sub_Node :: accept (Expr_Node_Visitor & v)
+void Sub_Node :: accept (Expr_Node_Visitor & v)
 {
     v.Visit_Sub_Node(*this);
 } //end accept

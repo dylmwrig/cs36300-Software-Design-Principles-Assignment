@@ -7,15 +7,15 @@
 #include "Array_Iterator.h"
 #include "Stack.h"
 #include "Expr_Node.h"
-#include "Expr_Command_Factory.h"
-#include "Stack_Expr_Command_Factory.h"
 #include "Add_Node.h"
 #include "Sub_Node.h"
 #include "Mult_Node.h"
 #include "Num_Node.h"
 #include "Div_Node.h"
+#include "Expr_Tree_Builder.h"
 //#include "Variable_Command.h"
 
+/*
 //I realize it's weird to put a function in a driver file but I'm just doing this for now
 //until I find a proper home for the poor thing.
 //
@@ -140,6 +140,7 @@ Array<Expr_Node *> postfix(Array<std::string> expressions, Stack_Expr_Command_Fa
 
     return postfix;
 } //end postfix
+ */
 
 int main()
 {
@@ -200,6 +201,9 @@ int main()
     }
     std::cout<<s.top();
     */
+
+    Expr_Tree_Builder * builder = new Expr_Tree_Builder();
+    builder->start_expression();
 
     return 0;
 } //end main

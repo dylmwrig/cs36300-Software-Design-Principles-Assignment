@@ -148,9 +148,6 @@
 		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h">
 			<Option target="calculator2"/>
 		</Unit>
-		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.cpp">
-			<Option target="calculator2"/>
-		</Unit>
 		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h">
 			<Option target="calculator2"/>
 		</Unit>
@@ -190,12 +187,6 @@
 		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h">
 			<Option target="calculator2"/>
 		</Unit>
-		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack_Expr_Command_Factory.cpp">
-			<Option target="calculator2"/>
-		</Unit>
-		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack_Expr_Command_Factory.h">
-			<Option target="calculator2"/>
-		</Unit>
 		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Node.cpp">
 			<Option target="calculator2"/>
 		</Unit>
@@ -208,10 +199,10 @@
 		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Unary_Expr_Node.h">
 			<Option target="calculator2"/>
 		</Unit>
-		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Variable_Command.cpp">
+		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Variable_Node.cpp">
 			<Option target="calculator2"/>
 		</Unit>
-		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Variable_Command.h">
+		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Variable_Node.h">
 			<Option target="calculator2"/>
 		</Unit>
 		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/driver.cpp">

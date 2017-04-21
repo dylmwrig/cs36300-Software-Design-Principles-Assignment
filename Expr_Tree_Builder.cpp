@@ -27,6 +27,11 @@ virtual void Expr_Tree_Builder :: start_expression ()
     //input stuff
     std::string input = "3 + 5 * 2 / 1";
 
+    std::cout<<input<<std::endl;
+    std::string postfix = infixToPostfix(input);
+    std::cout<<postfix<<std::endl;
+
+    /*
     //taken from driver
     for (char c : input)
     {
@@ -58,7 +63,86 @@ virtual void Expr_Tree_Builder :: start_expression ()
             expression = "";
         } //end else
     } //end for
+     */
 } //end start_expression
+
+//convert an infix expression to postfix and return the postfix translation
+//complete the conversion using a stack
+std::string Expr_Tree_Builder :: infixToPostfix(std::string infix)
+{
+    std :: string input = "", output = "";
+    Stack <std::string> operators;
+    Array<std::string > postfix;
+
+    for (size_t i = 0; i < infix.size(); i++)
+    {
+        //move through the string character by character, splitting based on spaces
+        if (infix[i] == ' ')
+        {
+            //numbers are immediately added
+            if (isdigit(input))
+            {
+                output += input + " ";
+            } //end if
+
+            else if (input != ")")
+            {
+                if (input == "+" || input == "-")
+                {
+                    while (!operators.is_empty() && operators.top() != "(" && operators.top() != ")")
+                    {
+                        output += operators.top();
+                        operators.pop();
+                    } //end while
+                    operators.push(input);
+                } //end if
+
+                //is this the correct precedence for modulus?
+                else if (input == "*" || input == "/" || input == "%")
+                {
+                    while (!operators.is_empty() && operators.top() != "(" && operators.top() != ")" && operators.top() != "+" && operators.top() != "-")
+                    {
+                        output += operators.top();
+                        operators.pop();
+                    } //end while
+                    operators.push(input);
+                } //end else if
+
+                //TODO
+                else if (input == "(")
+                {
+                    //Expr_Node *cmd = factory.create_paren_command();
+                } //end else if
+
+                operators.push(input);
+            } //end else if
+
+                //right parenth is the only special case
+            else
+            {
+                //TODO
+                operators.pop(); //pop the left parenthesis now
+            } //end else
+
+            input = ""; //reset the input string
+        } //end if
+
+        //if the input is not a space, add it to the input string (useful for two digit and above numbers)
+        else
+        {
+            input += infix[i];
+        } //end if
+    } //end for
+
+    //clear out the rest of the stack
+    while (!operators.is_empty())
+    {
+        postfix.add(operators.top());
+        operators.pop();
+    } //end while
+
+    return output;
+} //end infixToPostfix
 
 Expr_Tree * Expr_Tree_Builder :: get_expression (void)
 {

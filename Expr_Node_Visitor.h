@@ -1,19 +1,29 @@
 #ifndef CALCULATOR2_EXPR_NODE_VISITOR_H
 #define CALCULATOR2_EXPR_NODE_VISITOR_H
 
-#include "Add_Node.h"
-#include "Sub_Node.h"
-#include "Num_Node.h"
-#include "Mult_Node.h"
-#include "Div_Node.h"
-#include "Modulus_Node.h"
+//CIRCULAR DEPENDENCY
+//S U C K S
+//#include "Add_Node.h"
+//#include "Sub_Node.h"
+//#include "Num_Node.h"
+//#include "Mult_Node.h"
+//#include "Div_Node.h"
+//#include "Modulus_Node.h"
+
+class Add_Node;
+class Sub_Node;
+class Num_Node;
+class Mult_Node;
+class Div_Node;
+class Modulus_Node;
 
 //abstract class for each concrete visitor to inherit from
 //each inheriting class should just implement each of these method
 class Expr_Node_Visitor
 {
 public:
-    Expr_Node_Visitor(void) { }
+    Expr_Node_Visitor(void);
+
     virtual ~Expr_Node_Visitor(void);
 
     //methods to visit each type of node

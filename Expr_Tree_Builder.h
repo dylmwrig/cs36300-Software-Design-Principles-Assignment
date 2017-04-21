@@ -1,6 +1,7 @@
 #ifndef CALCULATOR2_EXPR_TREE_BUILDER_H
 #define CALCULATOR2_EXPR_TREE_BUILDER_H
 
+#include <iostream>
 #include "Expr_Builder.h"
 #include "Expr_Tree.h"
 
@@ -30,6 +31,7 @@ public:
     virtual void build_mod_operator (void);
     virtual void build_open_paren (void);
     virtual void build_close_paren (void);
+    std::string infixToPostfix(std::string infix);
     Expr_Tree * get_expression (void);
 private:
 // current state of expression tree

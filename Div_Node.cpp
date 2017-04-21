@@ -1,14 +1,15 @@
 #include "Div_Node.h"
+#include "Expr_Node_Visitor.h"
 
 Div_Node ::Div_Node(void)
         :Binary_Expr_Node() { }
 
 Div_Node :: ~Div_Node(void){ }
 
-int Div_Node :: evaluate (Num_Node * n1, Num_Node * n2) const
+int Div_Node :: evaluate (int n1, int n2) const
 {
     //do not divide by zero
-    if (n2->evaluate() == 0)
+    if (n2 == 0)
     {
         std::cout<<"Unable to perform division due to divide by zero"<<std::endl;
         return 0;
@@ -16,11 +17,11 @@ int Div_Node :: evaluate (Num_Node * n1, Num_Node * n2) const
 
     else
     {
-        return (n1->evaluate() / n2->evaluate());
+        return (n1 / n2);
     } //end else
 } //end evaluate
 
-virtual void Div_Node :: accept (Expr_Node_Visitor & v)
+void Div_Node :: accept (Expr_Node_Visitor & v)
 {
     v.Visit_Div_Node(*this);
 } //end accept

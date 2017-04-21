@@ -419,33 +419,6 @@ Expr_Node_Visitor.cpp.s:
 	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.s
 .PHONY : Expr_Node_Visitor.cpp.s
 
-Expr_Tree.obj: Expr_Tree.cpp.obj
-
-.PHONY : Expr_Tree.obj
-
-# target to build an object file
-Expr_Tree.cpp.obj:
-	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Tree.cpp.obj
-.PHONY : Expr_Tree.cpp.obj
-
-Expr_Tree.i: Expr_Tree.cpp.i
-
-.PHONY : Expr_Tree.i
-
-# target to preprocess a source file
-Expr_Tree.cpp.i:
-	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Tree.cpp.i
-.PHONY : Expr_Tree.cpp.i
-
-Expr_Tree.s: Expr_Tree.cpp.s
-
-.PHONY : Expr_Tree.s
-
-# target to generate assembly for a file
-Expr_Tree.cpp.s:
-	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Expr_Tree.cpp.s
-.PHONY : Expr_Tree.cpp.s
-
 Expr_Tree_Builder.obj: Expr_Tree_Builder.cpp.obj
 
 .PHONY : Expr_Tree_Builder.obj
@@ -608,33 +581,6 @@ Stack.cpp.s:
 	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Stack.cpp.s
 .PHONY : Stack.cpp.s
 
-Stack_Expr_Command_Factory.obj: Stack_Expr_Command_Factory.cpp.obj
-
-.PHONY : Stack_Expr_Command_Factory.obj
-
-# target to build an object file
-Stack_Expr_Command_Factory.cpp.obj:
-	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Stack_Expr_Command_Factory.cpp.obj
-.PHONY : Stack_Expr_Command_Factory.cpp.obj
-
-Stack_Expr_Command_Factory.i: Stack_Expr_Command_Factory.cpp.i
-
-.PHONY : Stack_Expr_Command_Factory.i
-
-# target to preprocess a source file
-Stack_Expr_Command_Factory.cpp.i:
-	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Stack_Expr_Command_Factory.cpp.i
-.PHONY : Stack_Expr_Command_Factory.cpp.i
-
-Stack_Expr_Command_Factory.s: Stack_Expr_Command_Factory.cpp.s
-
-.PHONY : Stack_Expr_Command_Factory.s
-
-# target to generate assembly for a file
-Stack_Expr_Command_Factory.cpp.s:
-	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Stack_Expr_Command_Factory.cpp.s
-.PHONY : Stack_Expr_Command_Factory.cpp.s
-
 Sub_Node.obj: Sub_Node.cpp.obj
 
 .PHONY : Sub_Node.obj
@@ -689,32 +635,32 @@ Unary_Expr_Node.cpp.s:
 	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Unary_Expr_Node.cpp.s
 .PHONY : Unary_Expr_Node.cpp.s
 
-Variable_Command.obj: Variable_Command.cpp.obj
+Variable_Node.obj: Variable_Node.cpp.obj
 
-.PHONY : Variable_Command.obj
+.PHONY : Variable_Node.obj
 
 # target to build an object file
-Variable_Command.cpp.obj:
-	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Variable_Command.cpp.obj
-.PHONY : Variable_Command.cpp.obj
+Variable_Node.cpp.obj:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Variable_Node.cpp.obj
+.PHONY : Variable_Node.cpp.obj
 
-Variable_Command.i: Variable_Command.cpp.i
+Variable_Node.i: Variable_Node.cpp.i
 
-.PHONY : Variable_Command.i
+.PHONY : Variable_Node.i
 
 # target to preprocess a source file
-Variable_Command.cpp.i:
-	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Variable_Command.cpp.i
-.PHONY : Variable_Command.cpp.i
+Variable_Node.cpp.i:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Variable_Node.cpp.i
+.PHONY : Variable_Node.cpp.i
 
-Variable_Command.s: Variable_Command.cpp.s
+Variable_Node.s: Variable_Node.cpp.s
 
-.PHONY : Variable_Command.s
+.PHONY : Variable_Node.s
 
 # target to generate assembly for a file
-Variable_Command.cpp.s:
-	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Variable_Command.cpp.s
-.PHONY : Variable_Command.cpp.s
+Variable_Node.cpp.s:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Variable_Node.cpp.s
+.PHONY : Variable_Node.cpp.s
 
 driver.obj: driver.cpp.obj
 
@@ -785,9 +731,6 @@ help:
 	@echo ... Expr_Node_Visitor.obj
 	@echo ... Expr_Node_Visitor.i
 	@echo ... Expr_Node_Visitor.s
-	@echo ... Expr_Tree.obj
-	@echo ... Expr_Tree.i
-	@echo ... Expr_Tree.s
 	@echo ... Expr_Tree_Builder.obj
 	@echo ... Expr_Tree_Builder.i
 	@echo ... Expr_Tree_Builder.s
@@ -806,18 +749,15 @@ help:
 	@echo ... Stack.obj
 	@echo ... Stack.i
 	@echo ... Stack.s
-	@echo ... Stack_Expr_Command_Factory.obj
-	@echo ... Stack_Expr_Command_Factory.i
-	@echo ... Stack_Expr_Command_Factory.s
 	@echo ... Sub_Node.obj
 	@echo ... Sub_Node.i
 	@echo ... Sub_Node.s
 	@echo ... Unary_Expr_Node.obj
 	@echo ... Unary_Expr_Node.i
 	@echo ... Unary_Expr_Node.s
-	@echo ... Variable_Command.obj
-	@echo ... Variable_Command.i
-	@echo ... Variable_Command.s
+	@echo ... Variable_Node.obj
+	@echo ... Variable_Node.i
+	@echo ... Variable_Node.s
 	@echo ... driver.obj
 	@echo ... driver.i
 	@echo ... driver.s
