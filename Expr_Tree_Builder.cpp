@@ -3,6 +3,11 @@
 #include "Expr_Tree.h"
 #include "Open_Paren_Node.h"
 #include "Close_Paren_Node.h"
+#include "Sub_Node.h"
+#include "Add_Node.h"
+#include "Mult_Node.h"
+#include "Div_Node.h"
+#include "Modulus_Node.h"
 
 Expr_Tree_Builder :: Expr_Tree_Builder() : tree_() { }
 
@@ -154,54 +159,54 @@ Expr_Tree * Expr_Tree_Builder :: get_expression (void)
 } //end getter
 
 //builders which add each operation to the expression tree
-virtual void Expr_Tree_Builder :: build_num(int n)
+void Expr_Tree_Builder :: build_num(int n)
 {
     Num_Node * toAdd = new Num_Node(n);
     tree_->add(toAdd);
 } //end build_num
 
-virtual void Expr_Tree_Builder :: build_add_operator()
+void Expr_Tree_Builder :: build_add_operator()
 {
     Expr_Node * left = nodes.top();
     nodes.pop();
     Expr_Node * right = nodes.top();
     nodes.pop();
-    Add_Node * toAdd = new Add_Node(left, right);
-    tree_->add(toAdd);
-    nodes.push(toAdd);
+    //Add_Node * toAdd = new Add_Node(left, right);
+    //tree_->add(toAdd);
+    //nodes.push(toAdd);
 } //end build_add_operator
 
-virtual void Expr_Tree_Builder :: build_sub_operator()
+void Expr_Tree_Builder :: build_sub_operator()
 {
     Sub_Node * toAdd = new Sub_Node();
     tree_->add(toAdd);
 } //end build_sub_operator
 
-virtual void Expr_Tree_Builder :: build_mult_operator()
+void Expr_Tree_Builder :: build_mult_operator()
 {
     Mult_Node * toAdd = new Mult_Node();
     tree_->add(toAdd);
 } //end build_mult_operator
 
-virtual void Expr_Tree_Builder ::build_div_operator()
+void Expr_Tree_Builder ::build_div_operator()
 {
     Div_Node * toAdd = new Div_Node();
     tree_->add(toAdd);
 } //end build_div_operator
 
-virtual void Expr_Tree_Builder :: build_mod_operator()
+void Expr_Tree_Builder :: build_mod_operator()
 {
     Modulus_Node * toAdd = new Modulus_Node();
     tree_->add(toAdd);
 } //end build_mod_operator
 
-virtual void Expr_Tree_Builder :: build_open_paren()
+void Expr_Tree_Builder :: build_open_paren()
 {
     Open_Paren_Node * toAdd = new Open_Paren_Node();
     tree_->add(toAdd);
 } //end build_open_parem
 
-virtual void Expr_Tree_Builder ::build_close_paren()
+void Expr_Tree_Builder ::build_close_paren()
 {
     Close_Paren_Node * toAdd = new Close_Paren_Node();
     tree_->add(toAdd);

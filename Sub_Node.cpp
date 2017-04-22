@@ -4,6 +4,9 @@
 Sub_Node :: Sub_Node(void)
         :Binary_Expr_Node() { }
 
+Sub_Node :: Sub_Node(Expr_Node * left, Expr_Node * right)
+        :Binary_Expr_Node(left, right) { }
+
 Sub_Node :: ~Sub_Node(void) { }
 
 int Sub_Node :: evaluate () const

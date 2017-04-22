@@ -141,6 +141,16 @@ Open_Paren_Node.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Open_Paren_Node.h
 Close_Paren_Node.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.h
+Sub_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Node.h
+Add_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Node.h
+Mult_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Node.h
+Div_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Node.h
+Modulus_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Node.h
 
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.h
 iostream

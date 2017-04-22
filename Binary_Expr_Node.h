@@ -1,9 +1,7 @@
-#ifndef CALCULATOR_BINARY_OP_COMMAND_H
-#define CALCULATOR_BINARY_OP_COMMAND_H
+#ifndef CALCULATOR_BINARY_EXPR_NODE_H
+#define CALCULATOR_BINARY_EXPR_NODE_H
 
 #include "Expr_Node.h"
-
-//class Expr_Node_Visitor;
 
 class Binary_Expr_Node : public Expr_Node
 {
@@ -20,4 +18,4 @@ protected:
     Expr_Node * left_;
 }; //end Binary_Expr_Node
 
-#endif //CALCULATOR_BINARY_OP_COMMAND_H
+#endif //CALCULATOR_BINARY_EXPR_NODE_H

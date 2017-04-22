@@ -8,7 +8,7 @@ class Expr_Node
 {
 public:
     Expr_Node (void);
-    ~Expr_Node(void);
+    virtual ~Expr_Node(void);
 
     virtual int evaluate (void) = 0;
     virtual void accept (Expr_Node_Visitor & v) = 0; //used for traversal using visitor class

@@ -11,7 +11,7 @@ bool Calculator :: parse_expr (const std::string & infix)
     std::istringstream input (infix); // create a input stream parser
     std::string token;
 // current token in string/stream
-    b.start_expression ();
+    //b.start_expression ();
 // start a new expression
     while (!input.eof ())
     {

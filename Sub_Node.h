@@ -6,10 +6,11 @@
 class Sub_Node : public Binary_Expr_Node
 {
 public:
-    Sub_Node();
-    ~Sub_Node();
+    Sub_Node(void);
+    Sub_Node(Expr_Node * left, Expr_Node * right);
+    ~Sub_Node(void);
 
-    int evaluate () const;
+    int evaluate (void) const;
     virtual void accept (Expr_Node_Visitor & v);
 }; //end Sub_Node
 
