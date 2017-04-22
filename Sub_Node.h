@@ -2,8 +2,6 @@
 #define CALCULATOR_SUB_COMMAND_H
 
 #include "Binary_Expr_Node.h"
-#include "Num_Node.h"
-#include "Stack.h"
 
 class Sub_Node : public Binary_Expr_Node
 {

@@ -2,7 +2,6 @@
 #define CALCULATOR_MULT_COMMAND_H
 
 #include "Binary_Expr_Node.h"
-#include "Stack.h"
 
 class Mult_Node : public Binary_Expr_Node
 {

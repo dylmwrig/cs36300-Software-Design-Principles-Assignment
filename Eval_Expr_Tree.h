@@ -1,17 +1,16 @@
-#ifndef CALCULATOR2_EXPR_NODE_VISITOR_H
-#define CALCULATOR2_EXPR_NODE_VISITOR_H
+#ifndef CALCULATOR2_EVAL_EXPR_TREE_H
+#define CALCULATOR2_EVAL_EXPR_TREE_H
 
-
+/*
 #include "Add_Node.h"
 #include "Sub_Node.h"
 #include "Num_Node.h"
 #include "Mult_Node.h"
 #include "Div_Node.h"
 #include "Modulus_Node.h"
+*/
+#include "Expr_Node_Visitor.h"
 
-//#include "Expr_Node_Visitor.h"
-
-/*
 class Add_Node;
 class Sub_Node;
 class Num_Node;
@@ -19,7 +18,6 @@ class Mult_Node;
 class Div_Node;
 class Modulus_Node;
 //class Expr_Node_Visitor;
-*/
 
 class Eval_Expr_Tree : public Expr_Node_Visitor
 {

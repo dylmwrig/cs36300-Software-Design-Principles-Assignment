@@ -1,7 +1,6 @@
 #ifndef CALCULATOR_BINARY_OP_COMMAND_H
 #define CALCULATOR_BINARY_OP_COMMAND_H
 
-//#include "Expr_Node_Visitor.h"
 #include "Expr_Node.h"
 
 //class Expr_Node_Visitor;

@@ -1,9 +1,7 @@
 #ifndef CALCULATOR_EXPR_COMMAND_H
 #define CALCULATOR_EXPR_COMMAND_H
 
-#include "Expr_Node_Visitor.h"
-
-//class Expr_Node_Visitor;
+class Expr_Node_Visitor;
 
 //pure virtual class for each kind of command to inherit from
 class Expr_Node

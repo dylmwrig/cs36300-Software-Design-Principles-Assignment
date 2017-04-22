@@ -1,5 +1,5 @@
 #include "Add_Node.h"
-//#include "Expr_Node_Visitor.h" //TODO CIRCULAR DEPENDENCY
+#include "Expr_Node_Visitor.h" //TODO CIRCULAR DEPENDENCY
 
 Add_Node :: Add_Node(void)
                 :Binary_Expr_Node(){ }
@@ -9,7 +9,7 @@ Add_Node :: Add_Node(Expr_Node * left, Expr_Node * right)
 
 Add_Node :: ~Add_Node(void) { }
 
-int Add_Node :: evaluate () const
+int Add_Node :: evaluate (void) const
 {
     return (left_->evaluate() + right_->evaluate());
 } //end evaluate

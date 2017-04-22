@@ -27,12 +27,12 @@ public:
     virtual ~Expr_Node_Visitor(void);
 
     //methods to visit each type of node
-    virtual void Visit_Add_Node (const Add_Node & node);
-    virtual void Visit_Sub_Node (const Sub_Node & node);
-    virtual void Visit_Mult_Node (const Mult_Node & node);
-    virtual void Visit_Div_Node (const Div_Node & node);
-    virtual void Visit_Mod_Node (const Modulus_Node & node);
-    virtual void Visit_Num_Node (const Num_Node & node);
+    virtual void Visit_Add_Node (const Add_Node & node) = 0;
+    virtual void Visit_Sub_Node (const Sub_Node & node) = 0;
+    virtual void Visit_Mult_Node (const Mult_Node & node) = 0;
+    virtual void Visit_Div_Node (const Div_Node & node) = 0;
+    virtual void Visit_Mod_Node (const Modulus_Node & node) = 0;
+    virtual void Visit_Num_Node (const Num_Node & node) = 0;
 }; //end Expr_Node_Visitor
 
 #endif //CALCULATOR2_EXPR_NODE_VISITOR_H

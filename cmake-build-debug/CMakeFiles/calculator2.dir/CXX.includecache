@@ -6,229 +6,235 @@
 
 #IncludeRegexTransform: 
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Add_Node.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Node.cpp
 Add_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Add_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Node.h
+Expr_Node_Visitor.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Add_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Node.h
 Binary_Expr_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Binary_Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Array.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.cpp
 stdexcept
 -
 Array.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Array.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Array.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
 cstddef
 -
 iostream
 -
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Array_Iterator.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array_Iterator.cpp
 Array_Iterator.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Array_Iterator.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array_Iterator.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Array_Iterator.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array_Iterator.h
 Array.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Array.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Binary_Expr_Node.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.cpp
 Binary_Expr_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Binary_Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Binary_Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
 Expr_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Calculator.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Calculator.cpp
 sstream
 -
 Calculator.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Calculator.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Calculator.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Calculator.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Calculator.h
 iostream
 -
 Expr_Tree_Builder.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Tree_Builder.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Close_Paren_Node.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.cpp
 Close_Paren_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Close_Paren_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Close_Paren_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.h
 Binary_Expr_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Binary_Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Div_Node.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Node.cpp
 Div_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Div_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Node.h
 Expr_Node_Visitor.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node_Visitor.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Div_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Node.h
 Binary_Expr_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Binary_Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
 Stack.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Eval_Expr_Tree.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Eval_Expr_Tree.cpp
 Eval_Expr_Tree.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Eval_Expr_Tree.h
-
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Eval_Expr_Tree.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Eval_Expr_Tree.h
 Add_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Add_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Node.h
 Sub_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Sub_Node.h
-Num_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Num_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Node.h
 Mult_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Mult_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Node.h
 Div_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Div_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Node.h
 Modulus_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Modulus_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Node.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Builder.cpp
-Expr_Builder.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Builder.h
-
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Builder.h
-Expr_Tree.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Tree.h
-
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node.cpp
-Expr_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node.h
-
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node.h
-Expr_Node_Visitor.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node_Visitor.h
-
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node_Visitor.cpp
-Expr_Node_Visitor.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node_Visitor.h
-
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node_Visitor.h
-
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Tree.h
-Expr_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node.h
-
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Tree_Builder.cpp
-Expr_Tree_Builder.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Tree_Builder.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Eval_Expr_Tree.h
+Add_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Node.h
+Sub_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Node.h
 Num_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Num_Node.h
-Expr_Tree.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Tree.h
-Open_Paren_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Open_Paren_Node.h
-Close_Paren_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Close_Paren_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.h
+Mult_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Node.h
+Div_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Node.h
+Modulus_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Node.h
+Expr_Node_Visitor.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Tree_Builder.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.cpp
+Expr_Builder.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.h
+Expr_Tree.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.cpp
+Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.cpp
+Expr_Node_Visitor.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
+Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.cpp
+Expr_Tree_Builder.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.h
+Num_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.h
+Expr_Tree.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
+Open_Paren_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Open_Paren_Node.h
+Close_Paren_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.h
+
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.h
 iostream
 -
 stack
 -
 Expr_Builder.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Builder.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.h
 Expr_Tree.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Tree.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Modulus_Node.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Node.cpp
 Modulus_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Modulus_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Node.h
 Expr_Node_Visitor.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node_Visitor.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Modulus_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Node.h
 Binary_Expr_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Binary_Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Mult_Node.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Node.cpp
 Mult_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Mult_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Node.h
 Expr_Node_Visitor.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node_Visitor.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Mult_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Node.h
 Binary_Expr_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Binary_Expr_Node.h
-Stack.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Num_Node.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.cpp
 Num_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Num_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.h
 Expr_Node_Visitor.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node_Visitor.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Num_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.h
 Stack.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
 Expr_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
 string
 -
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Open_Paren_Node.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Open_Paren_Node.cpp
 Open_Paren_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Open_Paren_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Open_Paren_Node.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Open_Paren_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Open_Paren_Node.h
 Unary_Expr_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Unary_Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Unary_Expr_Node.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Stack.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.cpp
 Stack.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
 exception
 -
 Array.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Array.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
 Stack.inl
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Stack.inl
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.inl
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Stack.inl
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.inl
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Sub_Node.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Node.cpp
 Sub_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Sub_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Node.h
 Expr_Node_Visitor.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node_Visitor.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Sub_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Node.h
 Binary_Expr_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Binary_Expr_Node.h
-Num_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Num_Node.h
-Stack.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Unary_Expr_Node.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Unary_Expr_Node.cpp
 Unary_Expr_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Unary_Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Unary_Expr_Node.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Unary_Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Unary_Expr_Node.h
 Expr_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Variable_Node.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Variable_Node.cpp
 Variable_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Variable_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Variable_Node.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Variable_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Variable_Node.h
 Num_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Num_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.h
 
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/driver.cpp
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/driver.cpp
 iostream
 -
 vector
@@ -240,23 +246,23 @@ cstdlib
 map
 -
 Array.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Array.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
 Array_Iterator.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Array_Iterator.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array_Iterator.h
 Stack.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
 Expr_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
 Add_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Add_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Node.h
 Sub_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Sub_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Node.h
 Mult_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Mult_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Node.h
 Num_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Num_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.h
 Div_Node.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Div_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Node.h
 Expr_Tree_Builder.h
-/home/professor-rhymes/Documents/school/principles-of-software-design/cs36300-spring2017-algebraic-v2/Expr_Tree_Builder.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.h
 

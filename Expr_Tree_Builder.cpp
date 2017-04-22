@@ -18,7 +18,7 @@ Expr_Tree_Builder :: ~Expr_Tree_Builder()
 //-when the input token is an operator, pop two from the stack and make them the operator's children
 //--push the operator onto the stack
 //when you are done, the stack will only contain the root: construct the tree based on this root
-virtual void Expr_Tree_Builder :: start_expression ()
+void Expr_Tree_Builder :: start_expression ()
 {
     this->tree_ = new Expr_Tree ();
 
@@ -79,13 +79,17 @@ std::string Expr_Tree_Builder :: infixToPostfix(std::string infix)
         //move through the string character by character, splitting based on spaces
         if (infix[i] == ' ')
         {
-            //numbers are immediately added
-            if (isdigit(input))
+            for (int i = 0; i <input.size(); i++)
             {
-                output += input + " ";
-            } //end if
+                //numbers are immediately added
+                if (!isdigit((input)[i]))
+                {
+                    output += input + " ";
+                    break;
+                } //end if
+            } //end for
 
-            else if (input != ")")
+            if (input != ")")
             {
                 if (input == "+" || input == "-")
                 {
