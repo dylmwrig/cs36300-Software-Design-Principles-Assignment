@@ -8,7 +8,7 @@ Num_Node :: Num_Node (int n)
 
 Num_Node :: ~Num_Node () { }
 
-int Num_Node :: evaluate (void)
+int Num_Node :: evaluate (void) const
 {
     return n_;
 } //end execute

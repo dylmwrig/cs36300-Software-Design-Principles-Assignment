@@ -6,8 +6,9 @@ Modulus_Node :: Modulus_Node(void)
 
 Modulus_Node :: ~Modulus_Node(void){ }
 
-int Modulus_Node :: evaluate (int n1, int n2) const
+int Modulus_Node :: evaluate () const
 {
+    int n1 = 1, n2 = 1;
     return (n1 % n2);
 } //end evaluate
 

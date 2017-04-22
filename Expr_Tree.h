@@ -10,7 +10,7 @@ class Expr_Tree
 {
 public:
     Expr_Tree(void);
-    ~Expr_Tree(void);
+    virtual ~Expr_Tree(void);
     void add (Expr_Node * toAdd);
 
 private:

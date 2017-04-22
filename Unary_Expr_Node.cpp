@@ -1,6 +1,10 @@
 #include "Unary_Expr_Node.h"
 
-int Unary_Expr_Node :: evaluate (void)
+Unary_Expr_Node :: Unary_Expr_Node() { }
+
+Unary_Expr_Node ::~Unary_Expr_Node() { }
+
+int Unary_Expr_Node :: evaluate (void) const
 {
     if (this->child_)
     {

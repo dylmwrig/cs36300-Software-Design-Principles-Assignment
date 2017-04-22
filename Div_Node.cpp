@@ -6,8 +6,9 @@ Div_Node ::Div_Node(void)
 
 Div_Node :: ~Div_Node(void){ }
 
-int Div_Node :: evaluate (int n1, int n2) const
+int Div_Node :: evaluate () const
 {
+    int n1 = 1, n2 = 1;
     //do not divide by zero
     if (n2 == 0)
     {

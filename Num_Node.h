@@ -11,7 +11,7 @@ public:
     Num_Node (void); //default constructor for the variable node to use
     Num_Node (int n);
     ~Num_Node(void);
-    int evaluate (void);
+    int evaluate (void) const;
     void setNum(int num); //for setting the number in the variable node
     virtual void accept(Expr_Node_Visitor & v);
 protected:

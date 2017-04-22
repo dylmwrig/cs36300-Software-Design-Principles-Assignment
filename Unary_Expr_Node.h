@@ -8,7 +8,8 @@ class Unary_Expr_Node : public Expr_Node {
 public:
     Unary_Expr_Node (void);
     virtual ~Unary_Expr_Node (void);
-    virtual int evaluate (void);
+    virtual int evaluate (void) const;
+    virtual void accept (Expr_Node_Visitor & v) = 0;
 
 protected:
     Expr_Node * child_;

@@ -111,8 +111,6 @@ Expr_Builder.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.h
 
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.h
-Expr_Tree.h
-C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
 
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.cpp
 Expr_Node.h
@@ -126,11 +124,17 @@ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/E
 
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h
 
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.cpp
+Expr_Tree.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
+
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
 Expr_Node.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
 
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.cpp
+cstdlib
+-
 Expr_Tree_Builder.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.h
 Num_Node.h
@@ -159,8 +163,6 @@ stack
 -
 Expr_Builder.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.h
-Expr_Tree.h
-C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
 
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Node.cpp
 Modulus_Node.h

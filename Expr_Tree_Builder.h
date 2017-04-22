@@ -4,7 +4,9 @@
 #include <iostream>
 #include <stack>
 #include "Expr_Builder.h"
-#include "Expr_Tree.h"
+
+class Expr_Tree;
+class Expr_Node;
 
 //builder for the expression tree
 //parse the infix expression and construct nodes for the tree based on that

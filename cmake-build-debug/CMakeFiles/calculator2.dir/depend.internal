@@ -22,8 +22,6 @@ CMakeFiles/calculator2.dir/Calculator.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Calculator.cpp
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Calculator.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.h
- C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
- C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.h
 CMakeFiles/calculator2.dir/Close_Paren_Node.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
@@ -57,14 +55,16 @@ CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.obj
 CMakeFiles/calculator2.dir/Expr_Builder.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.cpp
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.h
- C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
- C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
 CMakeFiles/calculator2.dir/Expr_Node.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.cpp
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
 CMakeFiles/calculator2.dir/Expr_Node_Visitor.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.cpp
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h
+CMakeFiles/calculator2.dir/Expr_Tree.cpp.obj
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.cpp
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
 CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
@@ -140,7 +140,6 @@ CMakeFiles/calculator2.dir/driver.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
- C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.h

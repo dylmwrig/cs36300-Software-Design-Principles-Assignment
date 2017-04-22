@@ -8,9 +8,11 @@
 class Open_Paren_Node : public Unary_Expr_Node
 {
 public:
-    Open_Paren_Node();
+    Open_Paren_Node(void);
+    ~Open_Paren_Node(void);
 
-    int evaluate () const;
+    int evaluate (void) const;
+    virtual void accept (Expr_Node_Visitor & v);
 }; //end Open_Paren_Node
 
 #endif //CALCULATOR_PAREN_COMMAND_H

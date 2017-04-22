@@ -20,6 +20,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj"
   "CMakeFiles/calculator2.dir/Close_Paren_Node.cpp.obj"
   "CMakeFiles/calculator2.dir/Calculator.cpp.obj"
+  "CMakeFiles/calculator2.dir/Expr_Tree.cpp.obj"
   "calculator2.pdb"
   "calculator2.exe"
   "calculator2.exe.manifest"
