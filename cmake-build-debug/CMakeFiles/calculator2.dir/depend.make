@@ -18,10 +18,13 @@ CMakeFiles/calculator2.dir/Binary_Expr_Node.cpp.obj: ../Binary_Expr_Node.cpp
 CMakeFiles/calculator2.dir/Binary_Expr_Node.cpp.obj: ../Binary_Expr_Node.h
 CMakeFiles/calculator2.dir/Binary_Expr_Node.cpp.obj: ../Expr_Node.h
 
+CMakeFiles/calculator2.dir/Calculator.cpp.obj: ../Array.h
 CMakeFiles/calculator2.dir/Calculator.cpp.obj: ../Calculator.cpp
 CMakeFiles/calculator2.dir/Calculator.cpp.obj: ../Calculator.h
 CMakeFiles/calculator2.dir/Calculator.cpp.obj: ../Expr_Builder.h
 CMakeFiles/calculator2.dir/Calculator.cpp.obj: ../Expr_Tree_Builder.h
+CMakeFiles/calculator2.dir/Calculator.cpp.obj: ../Stack.h
+CMakeFiles/calculator2.dir/Calculator.cpp.obj: ../Stack.inl
 
 CMakeFiles/calculator2.dir/Close_Paren_Node.cpp.obj: ../Binary_Expr_Node.h
 CMakeFiles/calculator2.dir/Close_Paren_Node.cpp.obj: ../Close_Paren_Node.cpp
@@ -70,8 +73,10 @@ CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj: ../Array.h
 CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj: ../Binary_Expr_Node.h
 CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj: ../Close_Paren_Node.h
 CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj: ../Div_Node.h
+CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj: ../Eval_Expr_Tree.h
 CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj: ../Expr_Builder.h
 CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj: ../Expr_Node.h
+CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj: ../Expr_Node_Visitor.h
 CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj: ../Expr_Tree.h
 CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj: ../Expr_Tree_Builder.cpp
 CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj: ../Expr_Tree_Builder.h

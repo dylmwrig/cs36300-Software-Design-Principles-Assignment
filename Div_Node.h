@@ -8,6 +8,7 @@ class Div_Node : public Binary_Expr_Node
 {
 public:
     Div_Node();
+    Div_Node(Expr_Node * left, Expr_Node * right);
     ~Div_Node();
 
     int evaluate () const;

@@ -8,6 +8,7 @@ class Modulus_Node : public Binary_Expr_Node
 {
 public:
     Modulus_Node(void);
+    Modulus_Node(Expr_Node * left, Expr_Node * right);
     ~Modulus_Node(void);
 
     int evaluate () const;

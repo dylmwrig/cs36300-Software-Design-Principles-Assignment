@@ -7,6 +7,7 @@ class Mult_Node : public Binary_Expr_Node
 {
 public:
     Mult_Node (void);
+    Mult_Node(Expr_Node * left, Expr_Node * right);
     ~Mult_Node(void);
 
     int evaluate () const;

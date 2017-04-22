@@ -13,6 +13,9 @@ public:
     virtual int evaluate (void) const = 0;
     virtual void accept (Expr_Node_Visitor & v) = 0;
 
+    Expr_Node * left(void) const;
+    Expr_Node * right(void) const;
+
 protected:
     Expr_Node * right_;
     Expr_Node * left_;

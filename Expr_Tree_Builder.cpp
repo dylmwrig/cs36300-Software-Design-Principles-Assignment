@@ -10,6 +10,7 @@
 #include "Mult_Node.h"
 #include "Div_Node.h"
 #include "Modulus_Node.h"
+#include "Eval_Expr_Tree.h"
 
 Expr_Tree_Builder :: Expr_Tree_Builder()
 {
@@ -44,7 +45,7 @@ bool numCheck(std::string input)
 //when you are done, the stack will only contain the root: construct the tree based on this root
 void Expr_Tree_Builder :: start_expression ()
 {
-    this->tree_ = new Expr_Tree ();
+    //this->tree_ = new Expr_Tree ();
 
     std::stack <Expr_Node> s;
     //TODO
@@ -70,6 +71,41 @@ void Expr_Tree_Builder :: start_expression ()
                 build_num(atoi(nodeInput.c_str()));
             } //end if
 
+            else if (nodeInput == "+")
+            {
+                build_add_operator();
+            } //end else if
+
+            else if (nodeInput == "-")
+            {
+                build_sub_operator();
+            } //end else if
+
+            else if (nodeInput == "*")
+            {
+                build_mult_operator();
+            } //end else if
+
+            else if (nodeInput == "/")
+            {
+                build_div_operator();
+            } //end else if
+
+            else if (nodeInput == "%")
+            {
+                build_mod_operator();
+            } //end else if
+
+            else if (nodeInput == "(")
+            {
+                build_open_paren();
+            } //end else if
+
+            else if (nodeInput == ")")
+            {
+                build_close_paren();
+            } //end else if
+
             nodeInput = "";
         } //end if
 
@@ -78,6 +114,16 @@ void Expr_Tree_Builder :: start_expression ()
             nodeInput += postfix[i];
         } //end else
     } //end for
+
+    Eval_Expr_Tree evaluator;
+    std::cout<<"lets see what's on the stack\n";
+    while (!nodes.is_empty())
+    {
+        //std::cout << nodes.top()->evaluate() << std :: endl;
+        nodes.top()->accept(evaluator);
+        nodes.pop();
+    } //end while
+    std::cout << "hittem with that realness " << evaluator.result();
 
     /*
     //taken from driver
@@ -212,51 +258,69 @@ Expr_Tree * Expr_Tree_Builder :: get_expression (void)
 void Expr_Tree_Builder :: build_num(int n)
 {
     Num_Node * toAdd = new Num_Node(n);
-    //tree_->add(toAdd);
+    nodes.push(toAdd);
 } //end build_num
 
 void Expr_Tree_Builder :: build_add_operator()
 {
+    std::cout<<"size at top: " << nodes.size() << std :: endl;
     Expr_Node * left = nodes.top();
     nodes.pop();
     Expr_Node * right = nodes.top();
     nodes.pop();
     Add_Node * toAdd = new Add_Node(left, right);
     nodes.push(toAdd);
+    std::cout<<"size at bottom: " << nodes.size() << std :: endl;
 } //end build_add_operator
 
 void Expr_Tree_Builder :: build_sub_operator()
 {
-    Sub_Node * toAdd = new Sub_Node();
-    //tree_->add(toAdd);
+    Expr_Node * left = nodes.top();
+    nodes.pop();
+    Expr_Node * right = nodes.top();
+    nodes.pop();
+    Sub_Node * toAdd = new Sub_Node(left, right);
+    nodes.push(toAdd);
 } //end build_sub_operator
 
 void Expr_Tree_Builder :: build_mult_operator()
 {
-    Mult_Node * toAdd = new Mult_Node();
-    //tree_->add(toAdd);
+    Expr_Node * left = nodes.top();
+    nodes.pop();
+    Expr_Node * right = nodes.top();
+    nodes.pop();
+    Mult_Node * toAdd = new Mult_Node(left, right);
+    nodes.push(toAdd);
 } //end build_mult_operator
 
 void Expr_Tree_Builder ::build_div_operator()
 {
-    Div_Node * toAdd = new Div_Node();
-    //tree_->add(toAdd);
+    Expr_Node * left = nodes.top();
+    nodes.pop();
+    Expr_Node * right = nodes.top();
+    nodes.pop();
+    Div_Node * toAdd = new Div_Node(left, right);
+    nodes.push(toAdd);
 } //end build_div_operator
 
 void Expr_Tree_Builder :: build_mod_operator()
 {
-    Modulus_Node * toAdd = new Modulus_Node();
-    //tree_->add(toAdd);
+    Expr_Node * left = nodes.top();
+    nodes.pop();
+    Expr_Node * right = nodes.top();
+    nodes.pop();
+    Modulus_Node * toAdd = new Modulus_Node(left, right);
+    nodes.push(toAdd);
 } //end build_mod_operator
 
 void Expr_Tree_Builder :: build_open_paren()
 {
     Open_Paren_Node * toAdd = new Open_Paren_Node();
-    //tree_->add(toAdd);
+    nodes.push(toAdd);
 } //end build_open_parem
 
 void Expr_Tree_Builder ::build_close_paren()
 {
     Close_Paren_Node * toAdd = new Close_Paren_Node();
-    //tree_->add(toAdd);
+    nodes.push(toAdd);
 } //end build_close_paren

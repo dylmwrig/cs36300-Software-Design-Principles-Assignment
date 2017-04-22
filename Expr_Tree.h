@@ -9,12 +9,11 @@
 class Expr_Tree
 {
 public:
-    Expr_Tree(void);
+    Expr_Tree(Expr_Node * root);
     virtual ~Expr_Tree(void);
-    void add (Expr_Node * toAdd);
 
 private:
-    Expr_Node * root;
+    Expr_Node * root_;
 }; //end Expr_Tree
 
 #endif //CALCULATOR2_EXPR_TREE_H

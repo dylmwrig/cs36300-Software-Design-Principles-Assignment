@@ -4,6 +4,7 @@
 #include <iostream>
 #include <stack>
 #include "Expr_Builder.h"
+#include "Stack.h"
 
 class Expr_Tree;
 class Expr_Node;
@@ -39,7 +40,7 @@ public:
 private:
 // current state of expression tree
     Expr_Tree * tree_;
-    std::stack<Expr_Node *> nodes;
+    Stack<Expr_Node *> nodes;
 // other variables to coordinate build process
 }; //end Expr_Tree_Builder
 

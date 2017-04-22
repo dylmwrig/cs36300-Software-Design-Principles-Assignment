@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Node.cpp
+iostream
+-
 Add_Node.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Node.h
 Expr_Node_Visitor.h
@@ -89,6 +91,8 @@ Div_Node.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Node.h
 Modulus_Node.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Node.h
+Num_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.h
 
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Eval_Expr_Tree.h
 Add_Node.h
@@ -155,6 +159,8 @@ Div_Node.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Node.h
 Modulus_Node.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Node.h
+Eval_Expr_Tree.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Eval_Expr_Tree.h
 
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.h
 iostream
@@ -163,6 +169,8 @@ stack
 -
 Expr_Builder.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.h
+Stack.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
 
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Node.cpp
 Modulus_Node.h
@@ -175,6 +183,8 @@ Binary_Expr_Node.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
 
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Node.cpp
+iostream
+-
 Mult_Node.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Node.h
 Expr_Node_Visitor.h

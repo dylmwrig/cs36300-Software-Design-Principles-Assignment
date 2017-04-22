@@ -19,10 +19,13 @@ CMakeFiles/calculator2.dir/Binary_Expr_Node.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
 CMakeFiles/calculator2.dir/Calculator.cpp.obj
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Calculator.cpp
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Calculator.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.inl
 CMakeFiles/calculator2.dir/Close_Paren_Node.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.cpp
@@ -71,8 +74,10 @@ CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Node.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Eval_Expr_Tree.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.cpp
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.h

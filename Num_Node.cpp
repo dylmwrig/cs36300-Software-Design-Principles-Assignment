@@ -10,6 +10,7 @@ Num_Node :: ~Num_Node () { }
 
 int Num_Node :: evaluate (void) const
 {
+    std::cout<<"Inside num node, n: " << n_ << std :: endl;
     return n_;
 } //end execute
 

@@ -11,7 +11,10 @@ Sub_Node :: ~Sub_Node(void) { }
 
 int Sub_Node :: evaluate () const
 {
-    return (left_->evaluate() - right_->evaluate());
+    int n1 = left_->evaluate();
+    int n2 = right_->evaluate();
+
+    return (n1 - n2);
 } //end evaluate
 
 void Sub_Node :: accept (Expr_Node_Visitor & v)

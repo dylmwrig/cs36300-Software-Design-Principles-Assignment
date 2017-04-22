@@ -4,11 +4,18 @@
 Div_Node ::Div_Node(void)
         :Binary_Expr_Node() { }
 
+Div_Node :: Div_Node(Expr_Node * left, Expr_Node * right)
+        :Binary_Expr_Node(left, right) { }
+
 Div_Node :: ~Div_Node(void){ }
 
 int Div_Node :: evaluate () const
 {
-    int n1 = 1, n2 = 1;
+    int n1 = left_->evaluate();
+    int n2 = right_->evaluate();
+
+    std::cout<<"Inside div node, n1 then n2: " << n1 << " " << n2 << std :: endl;
+
     //do not divide by zero
     if (n2 == 0)
     {
