@@ -10,6 +10,7 @@ class Binary_Expr_Node : public Expr_Node
 {
 public:
     Binary_Expr_Node(void);
+    Binary_Expr_Node(Expr_Node * left, Expr_Node * right);
     virtual ~Binary_Expr_Node(void);
 
     virtual int evaluate (void) const = 0;

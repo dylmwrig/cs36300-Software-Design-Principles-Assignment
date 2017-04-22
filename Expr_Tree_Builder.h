@@ -2,6 +2,7 @@
 #define CALCULATOR2_EXPR_TREE_BUILDER_H
 
 #include <iostream>
+#include <stack>
 #include "Expr_Builder.h"
 #include "Expr_Tree.h"
 
@@ -36,6 +37,7 @@ public:
 private:
 // current state of expression tree
     Expr_Tree * tree_;
+    std::stack<Expr_Node *> nodes;
 // other variables to coordinate build process
 }; //end Expr_Tree_Builder
 

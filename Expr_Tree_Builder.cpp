@@ -158,8 +158,13 @@ virtual void Expr_Tree_Builder :: build_num(int n)
 
 virtual void Expr_Tree_Builder :: build_add_operator()
 {
-    Add_Node * toAdd = new Add_Node();
+    Expr_Node * left = nodes.top();
+    nodes.pop();
+    Expr_Node * right = nodes.top();
+    nodes.pop();
+    Add_Node * toAdd = new Add_Node(left, right);
     tree_->add(toAdd);
+    nodes.push(toAdd);
 } //end build_add_operator
 
 virtual void Expr_Tree_Builder :: build_sub_operator()

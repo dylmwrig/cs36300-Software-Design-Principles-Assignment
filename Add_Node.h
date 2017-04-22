@@ -10,6 +10,7 @@ class Add_Node : public Binary_Expr_Node
 {
 public:
     Add_Node (void);
+    Add_Node (Expr_Node * left, Expr_Node * right);
     ~Add_Node(void);
 
     int evaluate () const;
