@@ -5,6 +5,7 @@
 #include "Div_Node.h"
 #include "Modulus_Node.h"
 #include "Num_Node.h"
+#include "Paren_Content_Node.h"
 
 Eval_Expr_Tree :: Eval_Expr_Tree (void)
                 :result_(0) { }
@@ -16,7 +17,8 @@ int Eval_Expr_Tree :: result (void) const
     return this->result_;
 } //end getter
 
-//for each visitor, because we're going in postorder traversal, accept the left then the right, then finally get the result of the root
+//for each visitor, because we're going in postorder traversal:
+//-accept the left then the right, then finally get the result of the root
 void Eval_Expr_Tree :: Visit_Add_Node (const Add_Node & node)
 {
     node.left()->accept(*this);
@@ -51,6 +53,12 @@ void Eval_Expr_Tree :: Visit_Mod_Node (const Modulus_Node & node)
     node.right()->accept(*this);
     result_ += node.evaluate();
 } //end Visit_Mod_Node
+
+//the parenthesis will just return a number, it has no children
+void Eval_Expr_Tree :: Visit_Paren_Node (const Paren_Content_Node & node)
+{
+    result_ += node.evaluate();
+} //end Visit_Paren_Node
 
 void Eval_Expr_Tree :: Visit_Num_Node (const Num_Node & node)
 {

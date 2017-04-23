@@ -112,12 +112,6 @@
 		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Calculator.h">
 			<Option target="calculator2"/>
 		</Unit>
-		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.cpp">
-			<Option target="calculator2"/>
-		</Unit>
-		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.h">
-			<Option target="calculator2"/>
-		</Unit>
 		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Node.cpp">
 			<Option target="calculator2"/>
 		</Unit>
@@ -178,10 +172,10 @@
 		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.h">
 			<Option target="calculator2"/>
 		</Unit>
-		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Open_Paren_Node.cpp">
+		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Content_Node.cpp">
 			<Option target="calculator2"/>
 		</Unit>
-		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Open_Paren_Node.h">
+		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Content_Node.h">
 			<Option target="calculator2"/>
 		</Unit>
 		<Unit filename="C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.cpp">

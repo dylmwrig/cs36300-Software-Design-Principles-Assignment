@@ -14,8 +14,7 @@ public:
     virtual void build_mult_operator (void) = 0;
     virtual void build_div_operator (void) = 0;
     virtual void build_mod_operator (void) = 0;
-    virtual void build_open_paren (void) = 0;
-    virtual void build_close_paren (void) = 0;
+    virtual void build_paren (std::string) = 0;
 // get the current expression
     virtual Expr_Tree * get_expression (void) = 0;
 }; //end Expr_Builder

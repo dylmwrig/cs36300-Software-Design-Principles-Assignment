@@ -11,7 +11,7 @@ public:
     Calculator(void);
     ~Calculator(void);
 
-    bool calculate(std::string input);
+    int calculate(std::string input);
 
 private:
     bool isValid(std::string input);

@@ -51,20 +51,16 @@ sstream
 -
 Calculator.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Calculator.h
+Eval_Expr_Tree.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Eval_Expr_Tree.h
+Expr_Tree.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
 
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Calculator.h
 iostream
 -
 Expr_Tree_Builder.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.h
-
-C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.cpp
-Close_Paren_Node.h
-C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.h
-
-C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.h
-Binary_Expr_Node.h
-C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
 
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Node.cpp
 Div_Node.h
@@ -93,6 +89,8 @@ Modulus_Node.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Node.h
 Num_Node.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.h
+Paren_Content_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Content_Node.h
 
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Eval_Expr_Tree.h
 Add_Node.h
@@ -147,10 +145,8 @@ Num_Node.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.h
 Expr_Tree.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
-Open_Paren_Node.h
-C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Open_Paren_Node.h
-Close_Paren_Node.h
-C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.h
+Paren_Content_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Content_Node.h
 Sub_Node.h
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Node.h
 Add_Node.h
@@ -210,13 +206,19 @@ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/E
 string
 -
 
-C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Open_Paren_Node.cpp
-Open_Paren_Node.h
-C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Open_Paren_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Content_Node.cpp
+Paren_Content_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Content_Node.h
+Expr_Node_Visitor.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h
+Calculator.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Calculator.h
 
-C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Open_Paren_Node.h
-Unary_Expr_Node.h
-C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Unary_Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Content_Node.h
+iostream
+-
+Binary_Expr_Node.h
+C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
 
 C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.cpp
 Stack.h

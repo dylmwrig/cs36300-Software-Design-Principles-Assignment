@@ -257,33 +257,6 @@ Calculator.cpp.s:
 	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Calculator.cpp.s
 .PHONY : Calculator.cpp.s
 
-Close_Paren_Node.obj: Close_Paren_Node.cpp.obj
-
-.PHONY : Close_Paren_Node.obj
-
-# target to build an object file
-Close_Paren_Node.cpp.obj:
-	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Close_Paren_Node.cpp.obj
-.PHONY : Close_Paren_Node.cpp.obj
-
-Close_Paren_Node.i: Close_Paren_Node.cpp.i
-
-.PHONY : Close_Paren_Node.i
-
-# target to preprocess a source file
-Close_Paren_Node.cpp.i:
-	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Close_Paren_Node.cpp.i
-.PHONY : Close_Paren_Node.cpp.i
-
-Close_Paren_Node.s: Close_Paren_Node.cpp.s
-
-.PHONY : Close_Paren_Node.s
-
-# target to generate assembly for a file
-Close_Paren_Node.cpp.s:
-	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Close_Paren_Node.cpp.s
-.PHONY : Close_Paren_Node.cpp.s
-
 Div_Node.obj: Div_Node.cpp.obj
 
 .PHONY : Div_Node.obj
@@ -554,32 +527,32 @@ Num_Node.cpp.s:
 	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Num_Node.cpp.s
 .PHONY : Num_Node.cpp.s
 
-Open_Paren_Node.obj: Open_Paren_Node.cpp.obj
+Paren_Content_Node.obj: Paren_Content_Node.cpp.obj
 
-.PHONY : Open_Paren_Node.obj
+.PHONY : Paren_Content_Node.obj
 
 # target to build an object file
-Open_Paren_Node.cpp.obj:
-	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Open_Paren_Node.cpp.obj
-.PHONY : Open_Paren_Node.cpp.obj
+Paren_Content_Node.cpp.obj:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Paren_Content_Node.cpp.obj
+.PHONY : Paren_Content_Node.cpp.obj
 
-Open_Paren_Node.i: Open_Paren_Node.cpp.i
+Paren_Content_Node.i: Paren_Content_Node.cpp.i
 
-.PHONY : Open_Paren_Node.i
+.PHONY : Paren_Content_Node.i
 
 # target to preprocess a source file
-Open_Paren_Node.cpp.i:
-	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Open_Paren_Node.cpp.i
-.PHONY : Open_Paren_Node.cpp.i
+Paren_Content_Node.cpp.i:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Paren_Content_Node.cpp.i
+.PHONY : Paren_Content_Node.cpp.i
 
-Open_Paren_Node.s: Open_Paren_Node.cpp.s
+Paren_Content_Node.s: Paren_Content_Node.cpp.s
 
-.PHONY : Open_Paren_Node.s
+.PHONY : Paren_Content_Node.s
 
 # target to generate assembly for a file
-Open_Paren_Node.cpp.s:
-	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Open_Paren_Node.cpp.s
-.PHONY : Open_Paren_Node.cpp.s
+Paren_Content_Node.cpp.s:
+	$(MAKE) -f CMakeFiles\calculator2.dir\build.make CMakeFiles/calculator2.dir/Paren_Content_Node.cpp.s
+.PHONY : Paren_Content_Node.cpp.s
 
 Stack.obj: Stack.cpp.obj
 
@@ -740,9 +713,6 @@ help:
 	@echo ... Calculator.obj
 	@echo ... Calculator.i
 	@echo ... Calculator.s
-	@echo ... Close_Paren_Node.obj
-	@echo ... Close_Paren_Node.i
-	@echo ... Close_Paren_Node.s
 	@echo ... Div_Node.obj
 	@echo ... Div_Node.i
 	@echo ... Div_Node.s
@@ -773,9 +743,9 @@ help:
 	@echo ... Num_Node.obj
 	@echo ... Num_Node.i
 	@echo ... Num_Node.s
-	@echo ... Open_Paren_Node.obj
-	@echo ... Open_Paren_Node.i
-	@echo ... Open_Paren_Node.s
+	@echo ... Paren_Content_Node.obj
+	@echo ... Paren_Content_Node.i
+	@echo ... Paren_Content_Node.s
 	@echo ... Stack.obj
 	@echo ... Stack.i
 	@echo ... Stack.s

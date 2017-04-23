@@ -27,13 +27,13 @@ public:
     virtual ~Expr_Tree_Builder (void);
     virtual void start_expression (std::string input);
     virtual void build_num (int n);
+    virtual void build_paren(std::string subExpression);
     virtual void build_add_operator (void);
     virtual void build_sub_operator (void);
     virtual void build_mult_operator (void);
     virtual void build_div_operator (void);
     virtual void build_mod_operator (void);
-    virtual void build_open_paren (void);
-    virtual void build_close_paren (void);
+
     std::string infixToPostfix(std::string infix);
     Expr_Tree * get_expression (void);
 private:

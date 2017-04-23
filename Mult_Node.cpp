@@ -15,8 +15,6 @@ int Mult_Node :: evaluate () const
     int n1 = left_->evaluate();
     int n2 = right_->evaluate();
 
-    std::cout<<"Inside mult node, n1 then n2: " << n1 << " " << n2 << std :: endl;
-
     return (n1 * n2);
 } //end evaluate
 

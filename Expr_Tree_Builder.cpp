@@ -3,8 +3,7 @@
 #include "Expr_Tree_Builder.h"
 #include "Num_Node.h"
 #include "Expr_Tree.h"
-#include "Open_Paren_Node.h"
-#include "Close_Paren_Node.h"
+#include "Paren_Content_Node.h"
 #include "Sub_Node.h"
 #include "Add_Node.h"
 #include "Mult_Node.h"
@@ -15,7 +14,7 @@
 
 Expr_Tree_Builder :: Expr_Tree_Builder()
 {
-    tree_ = 0; //this is how they handle member initialization for the builder pattern in the book
+    //tree_ = 0; //this is how they handle member initialization for the builder pattern in the book
 } //end constructor
 
 Expr_Tree_Builder :: ~Expr_Tree_Builder()
@@ -47,7 +46,6 @@ bool numCheck(std::string input)
 void Expr_Tree_Builder :: start_expression (std::string input)
 {
     std::string postfix = infixToPostfix(input);
-    std::cout<<postfix<<std::endl;
 
     std::string nodeInput = "";
     for (size_t i = 0; i < postfix.size(); i++)
@@ -91,12 +89,38 @@ void Expr_Tree_Builder :: start_expression (std::string input)
 
             else if (nodeInput == "(")
             {
-                build_open_paren();
-            } //end else if
+                bool parenCheck = true;
+                int parenCount = 0;
+                Calculator calculator;
+                std::string splitInput = "";
+                i++;
 
-            else if (nodeInput == ")")
-            {
-                build_close_paren();
+                while (parenCheck)
+                {
+                    if (nodeInput[i] == '(')
+                    {
+                        parenCount++;
+                    } //end if
+
+                    else if (nodeInput[i] == ')')
+                    {
+                        if (parenCount == 0)
+                        {
+                            parenCheck = false;
+                        } //end if
+
+                        else
+                        {
+                            parenCount--;
+                        } //end else
+                    } //end else if
+
+                    splitInput += nodeInput[i];
+                    i++;
+                } //end while
+
+                i++; //move the index past the final )
+                build_paren(splitInput);
             } //end else if
 
             nodeInput = "";
@@ -108,49 +132,8 @@ void Expr_Tree_Builder :: start_expression (std::string input)
         } //end else
     } //end for
 
-    Eval_Expr_Tree * evaluator = new Eval_Expr_Tree();
-    std::cout<<"lets see what's on the stack\n";
-    while (!nodes.is_empty())
-    {
-        //std::cout << nodes.top()->evaluate() << std :: endl;
-        nodes.top()->accept(*evaluator);
-        nodes.pop();
-    } //end while
-    std::cout << "hittem with that realness " << evaluator->result();
-
-    /*
-    //taken from driver
-    for (char c : input)
-    {
-        if (c != ' ')
-        {
-            if (isalpha(c))
-            {
-                //std :: cout << "\n" << c << "=";
-                //int value = 0;
-                //std :: cin >> value;
-                //std :: string s = std :: to_string(value);
-                //std :: cout << std::endl << "number to be added: " << s << std :: endl;
-                //expression += s;
-
-            } //end if
-
-            else
-            {
-                expression += c;
-            } //end else
-        } //end if
-
-        else
-        {
-            //Expr_Node command;
-
-            //expressions.push_back(command);
-            inputs.add(expression);
-            expression = "";
-        } //end else
-    } //end for
-     */
+    tree_ = new Expr_Tree(nodes.top());
+    nodes.pop();
 } //end start_expression
 
 //convert an infix expression to postfix and return the postfix translation
@@ -254,7 +237,6 @@ std::string Expr_Tree_Builder :: infixToPostfix(std::string infix)
                             {
                                 if (parenCount == 0)
                                 {
-                                    std::cout<<"Here is your split string: " << splitInput << std :: endl;
                                     calculator.calculate(splitInput);
                                 } //end if
 
@@ -303,16 +285,20 @@ void Expr_Tree_Builder :: build_num(int n)
     nodes.push(toAdd);
 } //end build_num
 
+void Expr_Tree_Builder :: build_paren(std::string subExpression)
+{
+    Paren_Content_Node * toAdd = new Paren_Content_Node(subExpression);
+    nodes.push(toAdd);
+} //end build_paren
+
 void Expr_Tree_Builder :: build_add_operator()
 {
-    std::cout<<"size at top: " << nodes.size() << std :: endl;
     Expr_Node * left = nodes.top();
     nodes.pop();
     Expr_Node * right = nodes.top();
     nodes.pop();
     Add_Node * toAdd = new Add_Node(left, right);
     nodes.push(toAdd);
-    std::cout<<"size at bottom: " << nodes.size() << std :: endl;
 } //end build_add_operator
 
 void Expr_Tree_Builder :: build_sub_operator()
@@ -354,15 +340,3 @@ void Expr_Tree_Builder :: build_mod_operator()
     Modulus_Node * toAdd = new Modulus_Node(left, right);
     nodes.push(toAdd);
 } //end build_mod_operator
-
-void Expr_Tree_Builder :: build_open_paren()
-{
-    Open_Paren_Node * toAdd = new Open_Paren_Node();
-    nodes.push(toAdd);
-} //end build_open_parem
-
-void Expr_Tree_Builder ::build_close_paren()
-{
-    Close_Paren_Node * toAdd = new Close_Paren_Node();
-    nodes.push(toAdd);
-} //end build_close_paren

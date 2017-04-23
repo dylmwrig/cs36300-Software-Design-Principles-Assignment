@@ -31,6 +31,7 @@ public:
     virtual void Visit_Div_Node (const Div_Node & node);
     virtual void Visit_Mod_Node (const Modulus_Node & node);
     virtual void Visit_Num_Node (const Num_Node & node);
+    virtual void Visit_Paren_Node (const Paren_Content_Node & node);
 
     int result (void) const;
 

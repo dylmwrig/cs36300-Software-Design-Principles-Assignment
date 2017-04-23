@@ -12,9 +12,6 @@ public:
 
     virtual int evaluate (void) const = 0;
     virtual void accept (Expr_Node_Visitor & v) = 0; //used for traversal using visitor class
-
-protected:
-    Expr_Node * child_;
 }; //end Expr_Node
 
 #endif //CALCULATOR_EXPR_NODE_H

@@ -1,5 +1,7 @@
 #include <sstream>
 #include "Calculator.h"
+#include "Eval_Expr_Tree.h"
+#include "Expr_Tree.h"
 
 Calculator :: Calculator()
         : builder_() { }
@@ -34,12 +36,19 @@ bool Calculator :: isValid(std::string input)
 } //end isValid
 
 //perform the functions of a calculator
-bool Calculator :: calculate(std::string input)
+int Calculator :: calculate(std::string input)
 {
     if (!isValid(input))
     {
-        return false;
+        std::cout<<"Input is not valid.\n";
+        return 0;
     } //end if
 
     builder_.start_expression(input);
+    Expr_Tree * treeResult = builder_.get_expression();
+
+    Eval_Expr_Tree * evaluator = new Eval_Expr_Tree();
+    treeResult->accept(*evaluator);
+
+    return evaluator->result();
 } //end calculate

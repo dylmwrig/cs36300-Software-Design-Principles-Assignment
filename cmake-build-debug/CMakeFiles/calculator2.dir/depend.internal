@@ -19,18 +19,24 @@ CMakeFiles/calculator2.dir/Binary_Expr_Node.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
 CMakeFiles/calculator2.dir/Calculator.cpp.obj
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Add_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Calculator.cpp
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Calculator.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Node.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Eval_Expr_Tree.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Node.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Node.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.inl
-CMakeFiles/calculator2.dir/Close_Paren_Node.cpp.obj
- C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
- C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.cpp
- C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.h
- C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Node.h
 CMakeFiles/calculator2.dir/Div_Node.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
@@ -52,6 +58,7 @@ CMakeFiles/calculator2.dir/Eval_Expr_Tree.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Content_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.inl
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Node.h
@@ -73,7 +80,6 @@ CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Calculator.h
- C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Close_Paren_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Div_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Eval_Expr_Tree.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.h
@@ -85,11 +91,10 @@ CMakeFiles/calculator2.dir/Expr_Tree_Builder.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Modulus_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Mult_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.h
- C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Open_Paren_Node.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Content_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.inl
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Sub_Node.h
- C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Unary_Expr_Node.h
 CMakeFiles/calculator2.dir/Modulus_Node.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
@@ -110,11 +115,18 @@ CMakeFiles/calculator2.dir/Num_Node.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Num_Node.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.inl
-CMakeFiles/calculator2.dir/Open_Paren_Node.cpp.obj
+CMakeFiles/calculator2.dir/Paren_Content_Node.cpp.obj
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Binary_Expr_Node.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Calculator.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Builder.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node.h
- C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Open_Paren_Node.cpp
- C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Open_Paren_Node.h
- C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Unary_Expr_Node.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Node_Visitor.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Expr_Tree_Builder.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Content_Node.cpp
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Paren_Content_Node.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.h
+ C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.inl
 CMakeFiles/calculator2.dir/Stack.cpp.obj
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Array.h
  C:/Users/Ninjalazer/Documents/School/Principles of Software Design/calculator2/Stack.cpp

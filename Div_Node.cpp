@@ -14,8 +14,6 @@ int Div_Node :: evaluate () const
     int n1 = left_->evaluate();
     int n2 = right_->evaluate();
 
-    std::cout<<"Inside div node, n1 then n2: " << n1 << " " << n2 << std :: endl;
-
     //do not divide by zero
     if (n2 == 0)
     {
