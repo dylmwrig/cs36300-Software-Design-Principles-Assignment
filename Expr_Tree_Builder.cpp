@@ -11,6 +11,7 @@
 #include "Div_Node.h"
 #include "Modulus_Node.h"
 #include "Eval_Expr_Tree.h"
+#include "Calculator.h"
 
 Expr_Tree_Builder :: Expr_Tree_Builder()
 {
@@ -107,15 +108,15 @@ void Expr_Tree_Builder :: start_expression (std::string input)
         } //end else
     } //end for
 
-    Eval_Expr_Tree evaluator;
+    Eval_Expr_Tree * evaluator = new Eval_Expr_Tree();
     std::cout<<"lets see what's on the stack\n";
     while (!nodes.is_empty())
     {
         //std::cout << nodes.top()->evaluate() << std :: endl;
-        nodes.top()->accept(evaluator);
+        nodes.top()->accept(*evaluator);
         nodes.pop();
     } //end while
-    std::cout << "hittem with that realness " << evaluator.result();
+    std::cout << "hittem with that realness " << evaluator->result();
 
     /*
     //taken from driver
@@ -174,6 +175,37 @@ std::string Expr_Tree_Builder :: infixToPostfix(std::string infix)
         //and numbers which are two digits or longer
         if (infix[i] == ' ' || i == infix.size() - 1)
         {
+            //keep each parentheses bit in its place as we'll take care of that later
+            if (input == "(")
+            {
+                bool insideParen = true;
+                int parenCount = 0;
+
+                while (insideParen)
+                {
+
+                    if (infix[i] == '(')
+                    {
+                        parenCount++;
+                    } //end if
+
+                    else if (infix[i] == ')')
+                    {
+                        if (parenCount == 0)
+                        {
+                            insideParen = false;
+                        } //end if
+
+                        else
+                        {
+                            parenCount--;
+                        } //end else
+                    } //end else if
+
+                    i++;
+                } //end while
+            } //end if
+
             //numbers are immediately added to the output
             if (numCheck(input))
             {
@@ -204,30 +236,48 @@ std::string Expr_Tree_Builder :: infixToPostfix(std::string infix)
                         } //end while
                     } //end else if
 
-                        //TODO
+                    //no need to check if the parentheses count is correct again, because this is already done
                     else if (input == "(")
                     {
-                        //Expr_Node *cmd = factory.create_paren_command();
+                        int parenCount = 0;
+                        Calculator calculator;
+                        std::string splitInput = "";
+
+                        for (int j = i + 1; j < infix.size(); j++)
+                        {
+                            if (infix[j] == '(')
+                            {
+                                parenCount++;
+                            } //end if
+
+                            else if (infix[j] == ')')
+                            {
+                                if (parenCount == 0)
+                                {
+                                    std::cout<<"Here is your split string: " << splitInput << std :: endl;
+                                    calculator.calculate(splitInput);
+                                } //end if
+
+                                else
+                                {
+                                    parenCount--;
+                                } //end else
+                            } //end if
+
+                            splitInput += infix[j];
+                        } //end for
                     } //end else if
 
                     operators.push(input);
                 } //end else if
 
-                    //right parenth is the only special case
                 else
                 {
-                    //TODO
                     operators.pop(); //pop the left parenthesis now
                 } //end else
 
             } //end if
             input = ""; //reset the input string
-        } //end if
-
-        //if the input is not a space, add it to the input string (useful for two digit and above numbers)
-        else
-        {
-            input += infix[i];
         } //end if
     } //end for
 

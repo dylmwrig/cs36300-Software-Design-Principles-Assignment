@@ -6,7 +6,8 @@
 #include "Modulus_Node.h"
 #include "Num_Node.h"
 
-Eval_Expr_Tree :: Eval_Expr_Tree (void) { }
+Eval_Expr_Tree :: Eval_Expr_Tree (void)
+                :result_(0) { }
 
 Eval_Expr_Tree :: ~Eval_Expr_Tree (void) { }
 

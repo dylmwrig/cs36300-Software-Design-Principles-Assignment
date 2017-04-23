@@ -85,8 +85,8 @@
             <file leaf-file-name="Calculator.cpp" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Calculator.cpp">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="612">
-                    <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+                  <state relative-caret-position="391">
+                    <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
                     <folding />
                   </state>
                 </provider>
@@ -122,11 +122,11 @@
                 </provider>
               </entry>
             </file>
-            <file leaf-file-name="driver.cpp" pinned="false" current-in-tab="true">
+            <file leaf-file-name="driver.cpp" pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/driver.cpp">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="685">
-                    <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+                  <state relative-caret-position="975">
+                    <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
                     <folding>
                       <element signature="e#0#19#0" expanded="true" />
                     </folding>
@@ -138,9 +138,21 @@
               <entry file="file://$PROJECT_DIR$/Expr_Tree_Builder.cpp">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="-79">
-                    <caret line="264" column="30" lean-forward="false" selection-start-line="264" selection-start-column="30" selection-end-line="264" selection-end-column="30" />
+                    <caret line="314" column="30" lean-forward="false" selection-start-line="314" selection-start-column="30" selection-end-line="314" selection-end-column="30" />
                     <folding>
                       <element signature="e#0#25#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="Eval_Expr_Tree.cpp" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Eval_Expr_Tree.cpp">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="415">
+                    <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+                    <folding>
+                      <element signature="e#0#27#0" expanded="true" />
                     </folding>
                   </state>
                 </provider>
@@ -167,8 +179,8 @@
             <file leaf-file-name="Mult_Node.cpp" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Mult_Node.cpp">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="51">
-                    <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                  <state relative-caret-position="289">
+                    <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
                     <folding>
                       <element signature="e#0#19#0" expanded="true" />
                     </folding>
@@ -222,9 +234,10 @@
               <entry file="file://$PROJECT_DIR$/Eval_Expr_Tree.cpp">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="646">
-                    <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+                    <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
                     <folding>
                       <element signature="e#0#27#0" expanded="true" />
+                      <marker date="1492906927652" expanded="true" signature="1501:1516" ph="{...}" />
                     </folding>
                   </state>
                 </provider>
@@ -310,11 +323,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Expr_Tree_Builder.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Expr_Tree_Builder.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expr_Tree_Builder.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="955">
+              <caret line="198" column="28" lean-forward="true" selection-start-line="198" selection-start-column="28" selection-end-line="198" selection-end-column="28" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -322,11 +335,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Expr_Builder.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Expr_Builder.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expr_Builder.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="340">
+              <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -413,13 +426,13 @@
         <option value="$PROJECT_DIR$/Expr_Tree.h" />
         <option value="$PROJECT_DIR$/Binary_Expr_Node.h" />
         <option value="$PROJECT_DIR$/Binary_Expr_Node.cpp" />
-        <option value="$PROJECT_DIR$/Eval_Expr_Tree.cpp" />
         <option value="$PROJECT_DIR$/Calculator.h" />
         <option value="$PROJECT_DIR$/Calculator.cpp" />
         <option value="$PROJECT_DIR$/Expr_Tree_Builder.h" />
-        <option value="$PROJECT_DIR$/Expr_Tree_Builder.cpp" />
-        <option value="$PROJECT_DIR$/Expr_Builder.h" />
         <option value="$PROJECT_DIR$/driver.cpp" />
+        <option value="$PROJECT_DIR$/Expr_Builder.h" />
+        <option value="$PROJECT_DIR$/Eval_Expr_Tree.cpp" />
+        <option value="$PROJECT_DIR$/Expr_Tree_Builder.cpp" />
       </list>
     </option>
   </component>
@@ -430,9 +443,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
-    <option name="width" value="1086" />
-    <option name="height" value="936" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1096" />
+    <option name="height" value="1896" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -688,24 +702,24 @@
       <workItem from="1492833671516" duration="726000" />
       <workItem from="1492834732790" duration="410000" />
       <workItem from="1492841589832" duration="6166000" />
-      <workItem from="1492881942700" duration="18910000" />
+      <workItem from="1492881942700" duration="22942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88037000" />
+    <option name="totallyTimeSpent" value="92069000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1086" height="936" extended-state="0" />
+    <frame x="1912" y="-8" width="1096" height="1896" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17461832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17296787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32627645" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34993774" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14974475" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -968,16 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Eval_Expr_Tree.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Div_Node.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1032,16 +1036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mult_Node.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expr_Tree.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1060,14 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Calculator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expr_Tree_Builder.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1078,30 +1064,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expr_Tree_Builder.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-79">
-          <caret line="264" column="30" lean-forward="false" selection-start-line="264" selection-start-column="30" selection-end-line="264" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Expr_Builder.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="340">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/driver.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="67" column="4" lean-forward="false" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        <state relative-caret-position="975">
+          <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mult_Node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculator.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Expr_Tree_Builder.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="314" column="30" lean-forward="false" selection-start-line="314" selection-start-column="30" selection-end-line="314" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eval_Expr_Tree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
