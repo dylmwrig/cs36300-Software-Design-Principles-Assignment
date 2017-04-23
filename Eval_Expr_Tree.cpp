@@ -15,6 +15,7 @@ int Eval_Expr_Tree :: result (void) const
     return this->result_;
 } //end getter
 
+//for each visitor, because we're going in postorder traversal, accept the left then the right, then finally get the result of the root
 void Eval_Expr_Tree :: Visit_Add_Node (const Add_Node & node)
 {
     node.left()->accept(*this);

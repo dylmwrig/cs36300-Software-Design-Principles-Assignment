@@ -6,50 +6,40 @@ Calculator :: Calculator()
 
 Calculator :: ~Calculator() { }
 
-bool Calculator :: parse_expr (const std::string & infix)
+bool Calculator :: isValid(std::string input)
 {
-    std::istringstream input (infix); // create a input stream parser
-    std::string token;
-// current token in string/stream
-    //b.start_expression ();
-// start a new expression
-    while (!input.eof ())
+    //increment parenCount when a left paren is encountered, decrement when a right paren is
+    //if there is a matching closed parentheses to every open, it will equal 0 at the end
+    int parenCount = 0;
+
+    for (size_t i = 0; i < input.size(); i++)
     {
-        input >> token;
-        if (token == "+")
+        if (input[i] == '(')
         {
-            this->builder_.build_add_operator ();
+            parenCount++;
         } //end if
 
-        else if (token == "-")
+        else if (input[i] == ')')
         {
-            this->builder_.build_sub_operator ();
+            parenCount--;
         } //end else if
+    } //end for
 
-        else if (token == "*")
-        {
-            this->builder_.build_mult_operator ();
-        } //end else if
+    if (parenCount == 0)
+    {
+        return true;
+    } //end if
 
-        else if (token == "/")
-        {
-            this->builder_.build_div_operator();
-        } //end else if
+    return false;
+} //end isValid
 
-        else if (token == "%")
-        {
-            this->builder_.build_mod_operator();
-        } //end else if
+//perform the functions of a calculator
+bool Calculator :: calculate(std::string input)
+{
+    if (!isValid(input))
+    {
+        return false;
+    } //end if
 
-        else if (token == "(")
-        {
-            this->builder_.build_open_paren();
-        } //end else if
-
-        else if (token == ")")
-        {
-            this->builder_.build_close_paren();
-        } //end else if
-    } //end while
-    return true;
-} //end parse_expr
+    builder_.start_expression(input);
+} //end calculate

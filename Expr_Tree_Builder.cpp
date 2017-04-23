@@ -43,16 +43,8 @@ bool numCheck(std::string input)
 //-when the input token is an operator, pop two from the stack and make them the operator's children
 //--push the operator onto the stack
 //when you are done, the stack will only contain the root: construct the tree based on this root
-void Expr_Tree_Builder :: start_expression ()
+void Expr_Tree_Builder :: start_expression (std::string input)
 {
-    //this->tree_ = new Expr_Tree ();
-
-    std::stack <Expr_Node> s;
-    //TODO
-    //input stuff
-    std::string input = "3 + 5 * 2 / 1";
-
-    std::cout<<input<<std::endl;
     std::string postfix = infixToPostfix(input);
     std::cout<<postfix<<std::endl;
 

@@ -2,7 +2,6 @@
 #define CALCULATOR2_EXPR_TREE_BUILDER_H
 
 #include <iostream>
-#include <stack>
 #include "Expr_Builder.h"
 #include "Stack.h"
 
@@ -26,7 +25,7 @@ class Expr_Tree_Builder : public Expr_Builder
 public:
     Expr_Tree_Builder (void);
     virtual ~Expr_Tree_Builder (void);
-    virtual void start_expression (void);
+    virtual void start_expression (std::string input);
     virtual void build_num (int n);
     virtual void build_add_operator (void);
     virtual void build_sub_operator (void);

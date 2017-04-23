@@ -11,9 +11,10 @@ public:
     Calculator(void);
     ~Calculator(void);
 
-    bool parse_expr(const std::string & infix);
+    bool calculate(std::string input);
 
 private:
+    bool isValid(std::string input);
     Expr_Tree_Builder builder_;
 }; //end Calculator
 

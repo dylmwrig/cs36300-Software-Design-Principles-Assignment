@@ -1,12 +1,13 @@
 #ifndef CALCULATOR2_EXPR_BUILDER_H
 #define CALCULATOR2_EXPR_BUILDER_H
 
+#include <iostream>
 class Expr_Tree;
 
 class Expr_Builder
 {
 public:
-    virtual void start_expression (void) = 0;
+    virtual void start_expression (std::string input) = 0;
     virtual void build_num (int n) = 0;
     virtual void build_add_operator (void) = 0;
     virtual void build_sub_operator (void) = 0;
