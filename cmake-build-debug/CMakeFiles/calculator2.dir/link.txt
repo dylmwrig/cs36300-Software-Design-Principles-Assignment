@@ -1,3 +1,0 @@
-"C:\Program Files (x86)\JetBrains\CLion 2016.3.3\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\calculator2.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\calculator2.dir/objects.a @CMakeFiles\calculator2.dir\objects1.rsp
-C:\MinGW\bin\g++.exe  -g   -Wl,--whole-archive CMakeFiles\calculator2.dir/objects.a -Wl,--no-whole-archive  -o calculator2.exe -Wl,--out-implib,libcalculator2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\calculator2.dir\linklibs.rsp
