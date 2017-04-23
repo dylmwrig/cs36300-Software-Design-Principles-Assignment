@@ -1,0 +1,133 @@
+#----------------------------------------------------------------------------
+#       Macros
+#----------------------------------------------------------------------------
+CC            = gcc
+CXX           = g++
+LD            = $(CXX) $(CCFLAGS) $(CPPFLAGS)
+AR            = ar
+PICFLAGS      = -fPIC
+CPPFLAGS      = $(PICFLAGS) $(GENFLAGS) -D_REENTRANT
+OBJEXT        = .o
+OUTPUT_OPTION = -o "$@"
+COMPILE.c     = $(CC) $(CFLAGS) $(CPPFLAGS) -c
+COMPILE.cc    = $(CXX) $(CCFLAGS) $(CPPFLAGS) -c
+LDFLAGS       = -L"."
+CCC           = $(CXX)
+MAKEFILE      = Makefile.cs36300_spring2017_algebraic_v2
+DEPENDENCIES  = .depend.$(MAKEFILE)
+BTARGETDIR    = ./
+BIN           = $(BTARGETDIR)driver$(EXESUFFIX)$(EXEEXT)
+CAT           = cat
+MV            = mv -f
+RM            = rm -rf
+CP            = cp -p
+NUL           = /dev/null
+MKDIR         = mkdir -p
+TESTDIRSTART  = test -d
+TESTDIREND    = ||
+TOUCH         = touch
+EXEEXT        = 
+LIBPREFIX     = lib
+LIBSUFFIX     = 
+GENFLAGS      = -O
+LDLIBS        = -ldl $(subst lib,-l,$(sort $(basename $(notdir $(wildcard /usr/lib/librt.so /lib/librt.so))))) -lpthread
+OBJS          = Expr_Node_Visitor$(OBJEXT) Binary_Expr_Node$(OBJEXT) Add_Node$(OBJEXT) Num_Node$(OBJEXT) Expr_Builder$(OBJEXT) Expr_Tree_Builder$(OBJEXT) Unary_Expr_Node$(OBJEXT) Mult_Node$(OBJEXT) Expr_Tree$(OBJEXT) Div_Node$(OBJEXT) Eval_Expr_Tree$(OBJEXT) Array$(OBJEXT) Expr_Node$(OBJEXT) Array_Iterator$(OBJEXT) Sub_Node$(OBJEXT) Stack$(OBJEXT) Calculator$(OBJEXT) driver$(OBJEXT) Paren_Content_Node$(OBJEXT) Variable_Node$(OBJEXT) Modulus_Node$(OBJEXT)
+SRC           = Expr_Node_Visitor.cpp Binary_Expr_Node.cpp Add_Node.cpp Num_Node.cpp Expr_Builder.cpp Expr_Tree_Builder.cpp Unary_Expr_Node.cpp Mult_Node.cpp Expr_Tree.cpp Div_Node.cpp Eval_Expr_Tree.cpp Array.cpp Expr_Node.cpp Array_Iterator.cpp Sub_Node.cpp Stack.cpp Calculator.cpp driver.cpp Paren_Content_Node.cpp Variable_Node.cpp Modulus_Node.cpp
+LINK.cc       = $(LD) $(LDFLAGS)
+EXPORTFLAGS   = 
+DEPLIBS       = $(foreach lib, , $(foreach libpath, ., $(wildcard $(libpath)/lib$(lib).a)))
+
+#----------------------------------------------------------------------------
+#       Local targets
+#----------------------------------------------------------------------------
+
+all: $(BIN)
+
+$(BIN): $(OBJS) $(DEPLIBS)
+	@$(TESTDIRSTART) "$(BTARGETDIR)" $(TESTDIREND) $(MKDIR) "$(BTARGETDIR)"
+	$(LINK.cc) $(OBJS) $(LDLIBS) $(OUTPUT_OPTION)
+
+generated: $(GENERATED_DIRTY)
+	@-:
+
+Expr_Node_Visitor$(OBJEXT): Expr_Node_Visitor.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Expr_Node_Visitor.cpp
+
+Binary_Expr_Node$(OBJEXT): Binary_Expr_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Binary_Expr_Node.cpp
+
+Add_Node$(OBJEXT): Add_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Add_Node.cpp
+
+Num_Node$(OBJEXT): Num_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Num_Node.cpp
+
+Expr_Builder$(OBJEXT): Expr_Builder.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Expr_Builder.cpp
+
+Expr_Tree_Builder$(OBJEXT): Expr_Tree_Builder.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Expr_Tree_Builder.cpp
+
+Unary_Expr_Node$(OBJEXT): Unary_Expr_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Unary_Expr_Node.cpp
+
+Mult_Node$(OBJEXT): Mult_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Mult_Node.cpp
+
+Expr_Tree$(OBJEXT): Expr_Tree.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Expr_Tree.cpp
+
+Div_Node$(OBJEXT): Div_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Div_Node.cpp
+
+Eval_Expr_Tree$(OBJEXT): Eval_Expr_Tree.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Eval_Expr_Tree.cpp
+
+Array$(OBJEXT): Array.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Array.cpp
+
+Expr_Node$(OBJEXT): Expr_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Expr_Node.cpp
+
+Array_Iterator$(OBJEXT): Array_Iterator.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Array_Iterator.cpp
+
+Sub_Node$(OBJEXT): Sub_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Sub_Node.cpp
+
+Stack$(OBJEXT): Stack.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Stack.cpp
+
+Calculator$(OBJEXT): Calculator.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Calculator.cpp
+
+driver$(OBJEXT): driver.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) driver.cpp
+
+Paren_Content_Node$(OBJEXT): Paren_Content_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Paren_Content_Node.cpp
+
+Variable_Node$(OBJEXT): Variable_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Variable_Node.cpp
+
+Modulus_Node$(OBJEXT): Modulus_Node.cpp
+	$(COMPILE.cc) $(EXPORTFLAGS) $(OUTPUT_OPTION) Modulus_Node.cpp
+
+clean:
+	-$(RM) $(OBJS)
+
+realclean: clean
+	-$(RM) $(BIN)
+
+check-syntax:
+	$(COMPILE.cc) $(EXPORTFLAGS) -Wall -Wextra -pedantic -fsyntax-only $(CHK_SOURCES)
+
+#----------------------------------------------------------------------------
+#       Dependencies
+#----------------------------------------------------------------------------
+
+
+depend:
+	-$(MPC_ROOT)/depgen.pl  $(CFLAGS) $(CCFLAGS) $(CPPFLAGS) -f $(DEPENDENCIES) $(SRC) 2> $(NUL)
+
+-include $(DEPENDENCIES)
