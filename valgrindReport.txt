@@ -1,0 +1,15 @@
+==3337== 
+==3337== HEAP SUMMARY:
+==3337==     in use at exit: 73,088 bytes in 23 blocks
+==3337==   total heap usage: 31 allocs, 8 frees, 75,264 bytes allocated
+==3337== 
+==3337== LEAK SUMMARY:
+==3337==    definitely lost: 256 bytes in 14 blocks
+==3337==    indirectly lost: 128 bytes in 8 blocks
+==3337==      possibly lost: 0 bytes in 0 blocks
+==3337==    still reachable: 72,704 bytes in 1 blocks
+==3337==         suppressed: 0 bytes in 0 blocks
+==3337== Rerun with --leak-check=full to see details of leaked memory
+==3337== 
+==3337== For counts of detected and suppressed errors, rerun with: -v
+==3337== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
